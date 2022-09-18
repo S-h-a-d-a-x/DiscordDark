@@ -1,3 +1,254 @@
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Radial status ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Changes the look of the emojis ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css);
+
+/* Supported Providers: Apple, Facebook, Google, JoyPixels, Microsoft, OpenMoji, Samsung, Toss, WhatsApp */
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Colored SVGs ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+@import url(https://nyri4.github.io/Discolored/main.css);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Fluent Icons Base Theme ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+@import url('https://stickfab.github.io/pc-fluenticons/src/fluenticons-base.css');
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Context Menu Icons ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+@import url("https://stickfab.github.io/pc-fluenticons/src/fluenticons-context.css");
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Settings Menu Icons ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Server columns ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Better Inbox ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Invites Redesign ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+/*                        ╔╦╗╦ ╦╔═╗╔╦╗╔═╗  ╦  ╦╔═╗╦═╗╦╔═╗╔╗ ╦  ╔═╗╔═╗                        */
+/*                         ║ ╠═╣║╣ ║║║║╣   ╚╗╔╝╠═╣╠╦╝║╠═╣╠╩╗║  ║╣ ╚═╗                        */
+/*                         ╩ ╩ ╩╚═╝╩ ╩╚═╝   ╚╝ ╩ ╩╩╚═╩╩ ╩╚═╝╩═╝╚═╝╚═╝                        */
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+:root {
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Brightness and Contrast ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--brightness: 1;
+	--contrast:   1;
+	--backdrop: .65;
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Fonts ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+	--font-primary:               var(--font) !important;
+	--font-display:               var(--font) !important;
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Text Colors ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--channels-default:   rgba(140, 145, 150, 1);
+
+	--header-primary:     rgba(215, 225, 230, 1);
+	--header-secondary:   rgba(200, 210, 215, 1);
+	--text-primary:       rgba(190, 200, 205, 1);
+	--text-normal:        rgba(180, 190, 195, 1);
+	--text-muted:         rgba(130, 130, 135, 1);
+
+	--text-positive:           var(--green-button);
+	--text-warning:       rgba(250, 170,  25, 1);
+	--text-danger:               var(--red-button);
+	--text-brand:         rgba(150, 155, 245, 1);
+
+	--text-link:          rgba( 80, 125, 255, 1);
+	--selection-text:     rgba(200, 210, 215, 1);
+	--text-shadow:        rgba(  0,   0,   0, 1);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Interactive Colors ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--interactive-hover:  rgba(225, 235, 235, 1);
+	--interactive-active: rgba(210, 220, 220, 1);
+	--interactive-normal: rgba(195, 205, 205, 1);
+	--interactive-muted:  rgba(140, 140, 145, 1);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Backgrounds ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--selection-background:           rgba(150, 155, 245, 0.2);
+	--background-primary:             rgba(  0,   0,   0,   0);
+	--background-secondary:           rgba( 25,  25,  25,   1);
+	--background-tertiary:            rgba(  0,   0,   0,   1);
+	--background-accent:                  transparent !important;
+	--background-modifier-accent:         transparent !important;
+	--background-modifier-hover:   var(--bgDarkness1) !important;
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--background-mentioned:               rgba(250, 170,  25, 0.10);
+	--background-message-hover:           rgba(250, 170,  25, 0.08);
+	--background-message-highlight:       rgba(150, 155, 245, 0.08);
+	--background-message-highlight-hover: rgba(150, 155, 245, 0.06);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Borders ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--border-primary:              rgba( 25,  25,  25, 1);
+	--border-secondary:            rgba( 30,  30,  30, 1);
+	--border-black:                rgba(  0,   0,   0, 1);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Buttons ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Red Button Colors ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--red-button:                  rgba(140,  40,  55, 1);
+	--red-button-hover:            rgba(125,  35,  50, 1);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Green Button Colors ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--green-button:                rgba(170, 165, 100, 1);
+	--green-button-hover:          rgba(155, 160,  95, 1);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Blue Button Colors ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--blue-button:                 rgba( 15,  90, 165, 1);
+	--blue-button-hover:           rgba(  0,  85, 160, 1);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ White Button Colors ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--white-button:                rgba(240, 250, 250, 1);
+	--white-button-hover:          rgba(225, 245, 245, 1);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Gray Button Colors ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--gray-button:                 rgba( 60,  60,  60, 1);
+	--gray-button-hover:           rgba( 65,  65,  65, 1);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Radial Status ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--rs-online-color:             rgba(180, 175, 110, 1);
+	--rs-idle-color:               rgba(130, 135, 115, 1);
+	--rs-dnd-color:                rgba(140,   0,   0, 1);
+	--rs-offline-color:            rgba( 50,  50,  50, 1);
+	--rs-streaming-color:          rgba( 75,  25, 230, 1);
+	--rs-invisible-color:            transparent !important;
+	--rs-phone-visible:                     none !important;
+
+	--rs-small-spacing:                      1px !important;
+	--rs-medium-spacing:                     2px !important;
+	--rs-large-spacing:                      2px !important;
+
+	--rs-small-width:                        2px !important;
+	--rs-medium-width:                       2px !important;
+	--rs-large-width:                        2px !important;
+
+	--rs-avatar-shape:                       50% !important;
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Server columns ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--columns:                                 1 !important;  /* Amount of columns           */
+	--aligndms:                                1 !important;  /*  NO = 0, YES = 1            */
+	--guildgap:                                5 !important;  /* Default:     3px            */
+	--guildsize:                              40 !important;  /* Default:    50px            */
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Settings Icons ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--settingsiconssize:                    18px !important;
+	--settingsiconsgap:                     14px !important;
+	--settings-sidebar-width:              245px !important;
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Home Button Image ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--home-image:    url('https://i.imgur.com/C74QKOR.png');
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Background Images ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--bgDarkness1:   rgba( 15, 15, 15,  1);
+	--bgDarkness2:   rgba( 10, 10, 10,  1);
+	--bgDarkness3:   rgba(  5,  5,  5,  1);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Other Colors ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--color-brand-lighter:      rgba( 90, 100, 240, 1);
+	--control-brand-foreground: rgba( 85,  90, 220, 1);
+	--brand-experiment:         rgba( 80,  80, 200, 1);
+	--brand-experiment-500:     rgba( 90, 100, 240, 1);
+	
+	--info-warning-foreground:  rgba(255, 155,   0, 1);
+	--info-danger-foreground:   rgba(180,  25,  30, 1);
+	--textbox-markdown-syntax:  rgba(255, 155,   0, 1);
+
+	--input-background:       var(--bgDarkness3) !important;
+	--input-placeholder-text: var(--text-muted)  !important;
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ My Colors ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--osb:                      rgba(168,  67,   0, 1);
+	--bso:                      rgba(185, 124, 248, 1);
+	--light-yellow:             rgba(255, 225,  90, 1);
+	--white:                    rgba(255, 255, 255, 1);
+	--gray-1:                   rgba( 90,  90,  90, 1);
+	--gray-2:                   rgba( 45,  45,  45, 1);
+	--gray-3:                   rgba( 25,  25,  25, 1);
+	--black:                    rgba(  0,   0,   0, 1);
+
+/* ◦◦◦◦◦◦◦◦◦◦ Misc Colors ◦◦◦◦◦◦◦◦◦◦ */
+
+	--red-1:   rgb(180,  25,  30);
+	--red-2:   rgb(175,  20,  25);
+	--red-3:   rgb(140,   0,   1);
+	--red-4:   rgb(110,   0,   0);
+
+	--blue-1:  rgb( 35, 100, 115);
+	--blue-2:  rgb( 15,  80, 105);
+	--blue-3:  rgb( 10,  50,  65);
+	--blue-4:  rgb( 15,  40,  45);
+
+	--green-1: rgb(195, 200, 170);
+	--green-2: rgb(180, 175, 110);
+	--green-3: rgb(130, 135, 115);
+	--green-4: rgb( 80,  85,  75);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Search Result Colors ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--search-popout-option-fade:                               transparent !important;
+	--search-popout-option-fade-hover:                         transparent !important;
+	--search-popout-option-user-nickname:                    rgba(200, 195, 215, 1);
+	--search-popout-option-user-username:                    rgba(150, 145, 165, 1);
+	--search-popout-option-filter-text:                      rgba(110, 115, 120, 1);
+	--search-popout-option-non-text-color:                   rgba(200, 205, 205, 1);
+	--search-popout-option-filter-color:                     rgba(200, 205, 205, 1);
+	--search-popout-option-answer-color:                     rgba(200, 205, 205, 1);
+	--search-popout-date-picker-border:                         var(--border-primary);
+	--search-popout-date-picker-hint-text:                   rgba(200, 205, 205, 1);
+	--search-popout-date-picker-hint-value-text:             rgba(255, 255, 255, 1);
+	--search-popout-date-picker-hint-value-background:       rgba( 75,  75,  75, 1);
+	--search-popout-date-picker-hint-value-background-hover: rgba(100, 100, 100, 1);
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Drop Shadow Effects ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--elevation-low:                                none !important;
+	--elevation-medium:            0  1px  1px rgba( 0, 0, 0, 1 );
+	--elevation-high:              0  4px 10px rgba( 0, 0, 0, 1 );
+	--guild-header-text-shadow:    0  1px  1px rgba( 0, 0, 0, 1 );
+	--elevation-stroke:         0  0  6px  0px rgba( 0, 0, 0, 1 );
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Scrollbars ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+	--scrollbar-thin-track:                  transparent !important;
+	--scrollbar-auto-track:                  transparent !important;
+	--scrollbar-auto-scrollbar-color-track:  transparent !important;
+}
+
 ::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece {
 	background: transparent !important;
 	border:            none !important;
