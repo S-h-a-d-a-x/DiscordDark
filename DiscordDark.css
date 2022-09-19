@@ -4,17 +4,17 @@
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Changes the look of the emojis ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css);
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
 
 /* Supported Providers: Apple, Facebook, Google, JoyPixels, Microsoft, OpenMoji, Samsung, Toss, WhatsApp */
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Colored SVGs ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url(https://nyri4.github.io/Discolored/main.css);
+@import url("https://nyri4.github.io/Discolored/main.css");
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Fluent Icons Base Theme ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url('https://stickfab.github.io/pc-fluenticons/src/fluenticons-base.css');
+@import url("https://stickfab.github.io/pc-fluenticons/src/fluenticons-base.css");
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Context Menu Icons ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -22,19 +22,19 @@
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Settings Menu Icons ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Server columns ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Better Inbox ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css");
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Invites Redesign ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css");
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 /*                        ╔╦╗╦ ╦╔═╗╔╦╗╔═╗  ╦  ╦╔═╗╦═╗╦╔═╗╔╗ ╦  ╔═╗╔═╗                        */
@@ -175,6 +175,9 @@
 	--bgDarkness1:   rgba( 15, 15, 15,  1);
 	--bgDarkness2:   rgba( 10, 10, 10,  1);
 	--bgDarkness3:   rgba(  5,  5,  5,  1);
+}
+
+.theme-dark {
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Other Colors ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -249,20 +252,21 @@
 	--scrollbar-auto-scrollbar-color-track:  transparent !important;
 }
 
-::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece {
-	background: transparent !important;
-	border:            none !important;
-}
-::-webkit-scrollbar-button, ::-webkit-scrollbar-corner {
-	background: transparent !important;
+#app-mount .scrollerBase-_bVAAt.auto-2K3UW5::-webkit-scrollbar-track {
+	background: var(--bgDarkness2) !important;
+	background-position:    center !important;
 }
 ::-webkit-scrollbar-thumb {
-	background:      transparent !important;
-	border:                 none !important;
-	border-radius:           8px !important;
-	background-clip: content-box !important;
+	background:        transparent !important;
+	border:                   none !important;
+	border-radius:             8px !important;
+	background-clip:   content-box !important;
 }
-::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active {
+#app-mount .scrollerBase-_bVAAt.auto-2K3UW5::-webkit-scrollbar-thumb:hover {
+	background: var(--bgDarkness3) !important;
+	background-position:    center !important;
+}
+#app-mount .scrollerBase-_bVAAt.auto-2K3UW5.scrolling-20Of9p::-webkit-scrollbar-thumb {
 	background: var(--bgDarkness3) !important;
 	background-position:    center !important;
 }
