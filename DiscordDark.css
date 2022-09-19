@@ -542,6 +542,11 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 	background: var(--info-warning-foreground) !important;
 	background-position:                center !important;
 }
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Color Of The Active Typing User And Loading Dots ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+.dots-1BwzZQ {
+	color:      var(--info-warning-foreground) !important;
+}
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Misc ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 .tierLock-1eabw6 {
