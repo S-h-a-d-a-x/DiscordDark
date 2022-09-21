@@ -312,6 +312,9 @@ div[data-list-item-id="guildsnav___home"]:hover  {
 	color:            transparent !important;
 	background:       transparent !important;
 }
+.imageWrapperBackground-3Vss_C, .pngImage-1vIgLy {
+	background:       transparent !important;
+}
 @keyframes home { 50% { transform: scale(0.95);} 50% { transform: scale(1.05);}}
 /* ◦◦◦◦◦◦◦◦ Background For The Main Window When Loading Or Having Connection Issues ◦◦◦◦◦◦◦◦ */
 
