@@ -587,36 +587,58 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 	border: 4px solid var(--border-secondary) !important;
 	background: var(--bgDarkness1) !important;
 }
+.codeRedemptionRedirect-2hYMSQ {
+	border:            none !important;
+	background: transparent !important;
+}
+.paymentSourceRow-1z8x7Z {
+	background: var(--bgDarkness3) !important;
+	border-radius:             8px !important;
+	margin:                 -6px 0 !important;
+	padding:                   6px !important;
+}
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 /*                                       ╔═╗╦  ╦╔═╗╔═╗                                       */
 /*                                       ╚═╗╚╗╔╝║ ╦╚═╗                                       */
 /*                                       ╚═╝ ╚╝ ╚═╝╚═╝                                       */
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Color Of The Padlock In Billing Settings ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+[d='M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM8.9 6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2H8.9V6zM16 16h-3v3h-2v-3H8v-2h3v-3h2v3h3v2z'] {
+	fill: var(--info-warning-foreground) !important;
+}
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Size Of The PayPal SVG In Billing Settings ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+.cardIcon-1d-mcG.paypal-3H9979:before {
+	width:      32px !important;
+	height:     32px !important;
+	margin-left: 2px !important;
+}
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Changes the Close Button In The Settings Page ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 .closeButton-PCZcma>svg>path {
-    d: path("M 19 6.41 L 17.59 5 L 12 10.59 L 6.41 5 L 5 6.41 L 10.59 12 L 5 17.59 L 6.41 19 L 12 13.41 L 17.59 19 L 19 17.59 L 13.41 12 L 19 6.41 Z") !important;
+	d: path("M 19 6.41 L 17.59 5 L 12 10.59 L 6.41 5 L 5 6.41 L 10.59 12 L 5 17.59 L 6.41 19 L 12 13.41 L 17.59 19 L 19 17.59 L 13.41 12 L 19 6.41 Z") !important;
 }
 .closeButton-PCZcma>svg {
-    width:  24px !important;
-    height: 24px !important;
+	width:  24px !important;
+	height: 24px !important;
 }
 .closeButton-PCZcma {
-    border-width:              2px !important;
-    color:       var(--red-button) !important;
-    background: var(--bgDarkness3) !important;
+	border-width:              2px !important;
+	color:       var(--red-button) !important;
+	background: var(--bgDarkness3) !important;
 }
 .closeButton-PCZcma:hover {
-    background: var(--bgDarkness3) !important;
-    color: var(--red-button-hover) !important;
+	background: var(--bgDarkness3) !important;
+	color: var(--red-button-hover) !important;
 }
 .keybind-13vtq8 {
-    color: var(--header-secondary) !important;
-    font-size:                12px !important;
+	color: var(--header-secondary) !important;
+	font-size:                12px !important;
 }
 .keybind-13vtq8:hover {
-    color: var(--header-primary)   !important;
+	color: var(--header-primary)   !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Changes the Upload A File SVG ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -1600,6 +1622,17 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, button.bd-but
 	background-position:           center !important;
 	border-color:     var(--border-black) !important;
 	margin-right:                     2px !important;
+}
+#billing-tab>div>div:nth-child(1)>div:nth-child(2)>div>div>div.flex-2S1XBF.flex-3BkGQD.vertical-3aLnqW.flex-3BkGQD.directionColumn-3pi1nm.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.descriptionWrapper-eOmU90>div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz>h3 {
+	font-size:                       14px !important;
+	font-weight:                      600 !important;
+	color: var(--header-primary)          !important;
+	margin-top:                      -2px !important;
+}
+#billing-tab>div>div:nth-child(1)>div:nth-child(2)>div>div>div.flex-2S1XBF.flex-3BkGQD.vertical-3aLnqW.flex-3BkGQD.directionColumn-3pi1nm.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.descriptionWrapper-eOmU90>div.subText-3Yps8e {
+	font-size:                       12px !important;
+	font-weight:                      500 !important;
+	color: var(--header-secondary)        !important;
 }
 #appearance-tab>div>div.children-1xdcWE>div:nth-child(1)>div {
 	border: 2px solid var(--border-black) !important;
