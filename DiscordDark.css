@@ -1192,8 +1192,20 @@ button#gif-picker-tab {
 	border-bottom-left-radius:  6px !important;
 	border-bottom-right-radius: 6px !important;
 }
-.menu-1QACrS, .menu-1QACrS .scroller-1bVxF5 { 
-	border-radius:              6px !important;
+.menu-1QACrS .scroller-1bVxF5 { 
+	border-radius:              4px !important;
+}
+.menu-1dOGCq {
+	background:       var(--bgDarkness3)    !important;
+	background-position:             center !important;
+	border: 4px ridge var(--border-primary) !important;
+	border-radius:                      4px !important;
+	min-width:                        100px !important;
+	width:                            180px !important;
+	left:                              -6px !important;
+}
+.optionLabel-1o-h-l {
+	height: 20px !important;
 }
 ::selection {
 	color:      var(--selection-text)       !important;
@@ -1505,19 +1517,20 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, button.bd-but
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Quick Reaction Buttons ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 .button-1zW0-r {
-	width:                           34px !important;
-	height:                          34px !important;
+	width:                           32px !important;
+	height:                          32px !important;
 	border: 2px solid var(--border-black) !important;
-	border-radius:                    35% !important;
+	border-radius:                   12px !important;
 	background:       var(--bgDarkness1)  !important;
 	background-position:           center !important;
+	margin-right:                     1px !important;
+	margin-left:                      1px !important;
 }
 .button-1zW0-r:hover {
-	border-radius:                        25% !important;
+	border-radius:                        8px !important;
 	background:       var(--bgDarkness1)      !important;
 	background-position:               center !important;
-	transition:                 150ms ease-in !important;
-	animation: pop 750ms ease-in-out infinite !important;
+	transition:                    150ms ease !important;
 }
 /* ◦◦◦◦◦◦◦◦◦ Notification Settings Check Box Buttons Background And Border Styles ◦◦◦◦◦◦◦◦◦◦ */
 
@@ -1546,7 +1559,6 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, button.bd-but
 .removeOverride-26fy8R {
 	right: -8px !important;
 }
-
 .button-f2h6uQ, .bd-button, .item-4m-12I.selected-3jieYB, .leftTrayIcon-3kMl25, .staticButton-1oD4l7, .button-3Vyz67,
 .item-3XjbnG[aria-controls="ADD_FRIEND-tab"], .selected-2LAck8 {
 	border:         2px solid transparent !important;
@@ -2042,6 +2054,13 @@ button.marginBottom8-emkd0_.button-1cRKG6.button-f2h6uQ.lookFilled-yCfaCM.colorB
 /*                                  ╩ ╩╩═╝╩╚═╝╝╚╝╩ ╩╚═╝╝╚╝ ╩                                   */
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
+/* ◦◦◦◦◦◦◦◦◦ The Position Of The Emoji Selector Box When Right Clicking Add Reaction ◦◦◦◦◦◦◦◦◦ */
+
+.wrapper-3u51GQ:not([class="wrapper-3u51GQ emojiPickerInExpressionPicker-2nOwH8"]) {
+	position: fixed !important;
+	right:     16px !important;
+	bottom:    88px !important;
+}
 /* ◦◦◦◦◦◦ Adjusts The Gap Between The Input Box And Buttons When Adding A Phone Number ◦◦◦◦◦◦◦ */
 
 [class="inputField-1iYysB"] {
@@ -2659,8 +2678,7 @@ input[type=number] {
 	background-color: var(--bgDarkness3)       !important;
 	background-position:                center !important;
 	border: 4px ridge var(--border-primary)    !important;
-	border-radius:                         8px !important;
-	margin-left:                           2px !important;
+	border-radius:                         4px !important;
 	filter: drop-shadow( 0 0 2px var(--black)) !important;
 }
 .scrollableContainer-15eg7h:hover, .scrollableContainer-15eg7h:focus-within {
@@ -2674,12 +2692,11 @@ input[type=number] {
 /* ◦◦◦◦◦◦◦◦◦◦ Position And Style Of The Popup Atatchment Bat When Using A Commaand ◦◦◦◦◦◦◦◦◦◦◦ */
 
 .attachedBars-2BCP3l {
-	margin-right:                       2px !important;
 	background:       var(--bgDarkness3)    !important;
 	background-position:             center !important;
-	border: 2px solid var(--border-primary) !important;
-	border-top-left-radius:             8px !important;
-	border-top-right-radius:            8px !important;
+	border: 4px ridge var(--border-primary) !important;
+	border-top-left-radius:             4px !important;
+	border-top-right-radius:            4px !important;
 	border-bottom:                     none !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Position Of The Bot Icon In The Chatbox When Using A Command ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
@@ -2725,6 +2742,9 @@ input[type=number] {
 .optionPillKey-2JyeoP, .optionPillValue-2uxsMp {
 	background: var(--bgDarkness1)    !important;
 	background-position:       center !important;
+}
+.optionPillValue-2uxsMp {
+	padding-right:               10px !important;
 }
 .optionPill-2kmuZR {
 	background: var(--bgDarkness1)             !important;
@@ -2776,14 +2796,13 @@ input[type=number] {
 #app-mount form [class*="autocomplete-"] {
 	border: 4px ridge var(--border-primary) !important;
 	border-radius:                      4px !important;
-	margin-bottom:                      2px !important;
 }
 .autocompleteRow-14iwvH {
 	padding-right:               8px !important;
 	padding-left:                8px !important;
 }
 .contentTitle-3CylD3 {
-	font-size: 14px !important;
+	font-size:                  14px !important;
 	text-transform:       capitalize !important;
 	color: var(--interactive-active) !important;
 	padding-left:                8px !important;
