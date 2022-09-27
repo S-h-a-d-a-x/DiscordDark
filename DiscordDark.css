@@ -2685,7 +2685,6 @@ input[type=number] {
 	background-position:                center !important;
 	border: 4px ridge var(--border-primary)    !important;
 	border-radius:                         6px !important;
-	margin-left:                           2px !important;
 	filter: drop-shadow( 0 0 2px var(--black)) !important;
 }
 .scrollableContainer-15eg7h:hover, .scrollableContainer-15eg7h:focus-within {
