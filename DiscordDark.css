@@ -602,6 +602,7 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 	--profile-role-pill-border-color:            transparent !important;
 	--account-profile-popout-menu-hover:         transparent !important;
 }
+
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 /*                                       ╔═╗╦  ╦╔═╗╔═╗                                       */
 /*                                       ╚═╗╚╗╔╝║ ╦╚═╗                                       */
@@ -1320,7 +1321,7 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Displays The Theme Name Within The Settings Page ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 #app-mount .info-3pQQBb .line-18uChy:last-child:after {
-	content: "DiscordDark v1.2" !important;
+	content: "DiscordDark v1.4" !important;
 	display:              block !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
@@ -2029,10 +2030,13 @@ button.marginBottom8-emkd0_.button-1cRKG6.button-f2h6uQ.lookFilled-yCfaCM.colorB
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ User Popout Menu ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 .userPopout-2j1gM4 {
-	border: 1px solid var(--border-primary) !important;
-	border-radius:                      6px !important;
-	background-origin:           border-box !important;
-	box-sizing:                  border-box !important;
+	border: 1px solid var(--border-primary)     !important;
+	border-radius:                          6px !important;
+	background-color: var(--bgDarkness3)        !important;
+	background-position:                 center !important;
+	background-origin:               border-box !important;
+	box-sizing:                      border-box !important;
+	box-shadow: 0 0 8px 2px var(--border-black) !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ The border color on the left of mentioned messages ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
