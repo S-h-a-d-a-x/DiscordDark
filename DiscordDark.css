@@ -2684,7 +2684,7 @@ input[type=number] {
 	background-color: var(--bgDarkness3)       !important;
 	background-position:                center !important;
 	border: 4px ridge var(--border-primary)    !important;
-	border-radius:                         8px !important;
+	border-radius:                         6px !important;
 	margin-left:                           2px !important;
 	filter: drop-shadow( 0 0 2px var(--black)) !important;
 }
