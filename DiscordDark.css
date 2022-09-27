@@ -510,10 +510,9 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 .scrollerBase-_bVAAt[aria-label="Channels"] .content-2a4AW9>div:not(:nth-child(1)):not(:nth-child(2)):not(.container-1NXEtd), .popoutInfo-16MuYF, .body-2WIpo7, .guildSection-2Zyzy8,
 .container-2o3qEW, .wrapperAudio-1Bzv_Z, .bd-error-modal-footer, .modal-3Hrb0S, .checklistHeader-3liG7E, .ChannelDms-channelpopout-collapseButton, .quickswitcher-pKcM9U,.sliderContainer-2nidiS,
 .bd-addon-header, .typeWindows-2-g3UY, .titleBar-1it3bQ, .applicationStore-2nk7Lo>div>section, .empty-2zcusz, .banner-1YaD3N, .popoutBanner-3cqRD9, .premiumSubscriptionAccountCredit-1UInYJ,
-.notDetected-M3Ghh2, .nowPlaying-3UpuKc, .paginator-1eqD2g, .bottomDivider-ZmTm-j, .profileBannerPreview-3mLIdO, .input-2m5SfJ, .avatarUploaderInnerSquareDisabled-3M9eJS,
+.notDetected-M3Ghh2, .nowPlaying-3UpuKc, .cameraWrapper-3a7Ngv, .paginator-1eqD2g, .bottomDivider-ZmTm-j, .profileBannerPreview-3mLIdO, .input-2m5SfJ, .avatarUploaderInnerSquareDisabled-3M9eJS,
 .userPopoutInner-PA9zkU, .overlayBackground-arbZMT, .userPopoutInnerNonPremium-3zrFkp, .banner-2boKnS, .popoutBanner-16rVDY, .profileBanner-2zIsK7, .memberRow-1FhJgR, .activeGame-3ncS55,
-[class="content-2hZxGK thin-31rlnD scrollerBase-_bVAAt"]>[class="problemInfo-1QppuA"]>div, [class="select-1Ia3hD open-1FRZsK lookFilled-1GseHa"], [class="select-1Ia3hD lookFilled-1GseHa"],
-.userPopoutInner-1v4xcM, .overlayBackground-2Zjm9f {
+[class="content-2hZxGK thin-31rlnD scrollerBase-_bVAAt"]>[class="problemInfo-1QppuA"]>div, [class="select-1Ia3hD open-1FRZsK lookFilled-1GseHa"], [class="select-1Ia3hD lookFilled-1GseHa"] {
 	background: var(--bgDarkness3) !important;
 	background-clip:    border-box !important;
 	background-origin: padding-box !important;
@@ -588,20 +587,20 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 	border: 4px solid var(--border-secondary) !important;
 	background: var(--bgDarkness1) !important;
 }
-.codeRedemptionRedirect-2hYMSQ {
-	border:            none !important;
-	background: transparent !important;
-}
-.paymentSourceRow-1z8x7Z {
-	background: var(--bgDarkness3) !important;
-	border-radius:             8px !important;
-	margin:                 -6px 0 !important;
-	padding:                   6px !important;
-}
-.rolePill-2IJ1vo {
-	border: 2px solid var(--border-secondary) !important;
-	border-radius: 4px !important;
-	background: var(--bgDarkness2) !important;
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ User Profile Popout Colors ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+.profileColors-3Y0XaR {
+	--profile-gradient-primary-color:     var(--bgDarkness3) !important;
+	--profile-gradient-secondary-color:   var(--bgDarkness3) !important;
+	--profile-body-background-color:      var(--bgDarkness3) !important;
+	--profile-role-pill-background-color: var(--bgDarkness3) !important;
+	--profile-gradient-overlay-color:            transparent !important;
+	--profile-gradient-button-color:             transparent !important;
+	--profile-avatar-border-color:               transparent !important;
+	--profile-message-input-border-color:        transparent !important;
+	--profile-body-divider-color:                transparent !important;
+	--profile-role-pill-border-color:            transparent !important;
+	--account-profile-popout-menu-hover:         transparent !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 /*                                       ╔═╗╦  ╦╔═╗╔═╗                                       */
@@ -609,42 +608,30 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 /*                                       ╚═╝ ╚╝ ╚═╝╚═╝                                       */
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Color Of The Padlock In Billing Settings ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
-[d='M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM8.9 6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2H8.9V6zM16 16h-3v3h-2v-3H8v-2h3v-3h2v3h3v2z'] {
-	fill: var(--info-warning-foreground) !important;
-}
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Size Of The PayPal SVG In Billing Settings ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
-.cardIcon-1d-mcG.paypal-3H9979:before {
-	width:      32px !important;
-	height:     32px !important;
-	margin-left: 2px !important;
-}
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Changes the Close Button In The Settings Page ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 .closeButton-PCZcma>svg>path {
-	d: path("M 19 6.41 L 17.59 5 L 12 10.59 L 6.41 5 L 5 6.41 L 10.59 12 L 5 17.59 L 6.41 19 L 12 13.41 L 17.59 19 L 19 17.59 L 13.41 12 L 19 6.41 Z") !important;
+    d: path("M 19 6.41 L 17.59 5 L 12 10.59 L 6.41 5 L 5 6.41 L 10.59 12 L 5 17.59 L 6.41 19 L 12 13.41 L 17.59 19 L 19 17.59 L 13.41 12 L 19 6.41 Z") !important;
 }
 .closeButton-PCZcma>svg {
-	width:  24px !important;
-	height: 24px !important;
+    width:  24px !important;
+    height: 24px !important;
 }
 .closeButton-PCZcma {
-	border-width:              2px !important;
-	color:       var(--red-button) !important;
-	background: var(--bgDarkness3) !important;
+    border-width:              2px !important;
+    color:       var(--red-button) !important;
+    background: var(--bgDarkness3) !important;
 }
 .closeButton-PCZcma:hover {
-	background: var(--bgDarkness3) !important;
-	color: var(--red-button-hover) !important;
+    background: var(--bgDarkness3) !important;
+    color: var(--red-button-hover) !important;
 }
 .keybind-13vtq8 {
-	color: var(--header-secondary) !important;
-	font-size:                12px !important;
+    color: var(--header-secondary) !important;
+    font-size:                12px !important;
 }
 .keybind-13vtq8:hover {
-	color: var(--header-primary)   !important;
+    color: var(--header-primary)   !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Changes the Upload A File SVG ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -1128,8 +1115,20 @@ em>span {
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Misc ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
+.content-2hZxGK {
+	font-size:                16px !important;
+	line-height:              20px !important;
+	font-weight:               500 !important;
+	color: var(--header-secondary) !important;
+}
 [class="channelNameContainer-30S1Sr"] {
 	text-transform: capitalize !important;
+}
+.guildSection-2Zyzy8>div>div>div:nth-child(1)>div>h3>div {
+	font-size:    14px !important;
+	line-height:  20px !important;
+	margin-top:   -2px !important;
+	margin-bottom: 2px !important;
 }
 .truncatingText-3gTyiq>h3>div {
 	font-size:    14px !important;
@@ -1214,20 +1213,8 @@ button#gif-picker-tab {
 	border-bottom-left-radius:  6px !important;
 	border-bottom-right-radius: 6px !important;
 }
-.menu-1QACrS .scroller-1bVxF5 { 
-	border-radius:              4px !important;
-}
-.menu-1dOGCq {
-	background:       var(--bgDarkness3)    !important;
-	background-position:             center !important;
-	border: 4px ridge var(--border-primary) !important;
-	border-radius:                      4px !important;
-	min-width:                        100px !important;
-	width:                            180px !important;
-	left:                              -6px !important;
-}
-.optionLabel-1o-h-l {
-	height: 20px !important;
+.menu-1QACrS, .menu-1QACrS .scroller-1bVxF5 { 
+	border-radius:              6px !important;
 }
 ::selection {
 	color:      var(--selection-text)       !important;
@@ -1539,62 +1526,48 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, button.bd-but
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Quick Reaction Buttons ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 .button-1zW0-r {
-	width:                           32px !important;
-	height:                          32px !important;
+	width:                           34px !important;
+	height:                          34px !important;
 	border: 2px solid var(--border-black) !important;
-	border-radius:                   12px !important;
+	border-radius:                    35% !important;
 	background:       var(--bgDarkness1)  !important;
 	background-position:           center !important;
-	margin-right:                     1px !important;
-	margin-left:                      1px !important;
 }
 .button-1zW0-r:hover {
-	border-radius:                        8px !important;
+	border-radius:                        25% !important;
 	background:       var(--bgDarkness1)      !important;
 	background-position:               center !important;
-	transition:                    150ms ease !important;
+	transition:                 150ms ease-in !important;
+	animation: pop 750ms ease-in-out infinite !important;
 }
 /* ◦◦◦◦◦◦◦◦◦ Notification Settings Check Box Buttons Background And Border Styles ◦◦◦◦◦◦◦◦◦◦ */
 
-.checkboxMute-1erNeD:before, .checkboxWrapper-2fDzaA {
-	background: transparent !important;
-}
-.checkboxContainer-1NbL2v:before {
-	visibility:      hidden !important;
+.checkbox-f1HnKB {
+	border-color:    var(--gray-2) !important;
+	border-radius:             4px !important;
 }
 .checkboxGroup-uXi80g {
-	background: var(--bgDarkness3)  !important;
+	background: var(--bgDarkness3) !important;
+	border-radius:            10px !important;
 }
-.checkbox-f1HnKB {
-	border: 2px solid var(--border-secondary) !important;
-	border-radius:                        4px !important;
+.checkboxMute-1erNeD:before {
+	background-color:  transparent !important;
 }
-[class="checkbox-f1HnKB flexCenter-1Mwsxg flex-3BkGQD justifyCenter-rrurWZ alignCenter-14kD11 box-BHImcZ"],
+.checkboxContainer-1NbL2v:before {
+	visibility:             hidden !important;
+}
+[class="inputDefault-2F39XG input-3xr72x"] {
+	background-color: var(--green-button) !important;
+}
 [class="checkbox-f1HnKB flexCenter-1Mwsxg flex-3BkGQD justifyCenter-rrurWZ alignCenter-14kD11 round-1RSG-3"] {
-	background: var(--bgDarkness2)  !important;
-}
-[class="checkbox-f1HnKB flexCenter-1Mwsxg flex-3BkGQD justifyCenter-rrurWZ alignCenter-14kD11 round-1RSG-3 checked-1pZh2h"] {
-	background: var(--green-button) !important;
-}
-[class="checkbox-f1HnKB flexCenter-1Mwsxg flex-3BkGQD justifyCenter-rrurWZ alignCenter-14kD11 box-BHImcZ checked-1pZh2h"] {
-	background: var(--green-button) !important;
-}
-[class="checkbox-f1HnKB flexCenter-1Mwsxg flex-3BkGQD justifyCenter-rrurWZ alignCenter-14kD11 round-1RSG-3 checked-1pZh2h"] > svg > path {
-	fill:              var(--white) !important;
-}
-/*
-.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.nameContainer-rF22Er > svg {
-	display: none !important;
-}
-*/
-.icon-qThCQ9 {
-	display: none !important;
+	background-color: var(--bgDarkness2)  !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Misc Buttons ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 .removeOverride-26fy8R {
 	right: -8px !important;
 }
+
 .button-f2h6uQ, .bd-button, .item-4m-12I.selected-3jieYB, .leftTrayIcon-3kMl25, .staticButton-1oD4l7, .button-3Vyz67,
 .item-3XjbnG[aria-controls="ADD_FRIEND-tab"], .selected-2LAck8 {
 	border:         2px solid transparent !important;
@@ -1636,17 +1609,6 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, button.bd-but
 	background-position:           center !important;
 	border-color:     var(--border-black) !important;
 	margin-right:                     2px !important;
-}
-#billing-tab>div>div:nth-child(1)>div:nth-child(2)>div>div>div.flex-2S1XBF.flex-3BkGQD.vertical-3aLnqW.flex-3BkGQD.directionColumn-3pi1nm.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.descriptionWrapper-eOmU90>div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz>h3 {
-	font-size:                       14px !important;
-	font-weight:                      600 !important;
-	color: var(--header-primary)          !important;
-	margin-top:                      -2px !important;
-}
-#billing-tab>div>div:nth-child(1)>div:nth-child(2)>div>div>div.flex-2S1XBF.flex-3BkGQD.vertical-3aLnqW.flex-3BkGQD.directionColumn-3pi1nm.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.descriptionWrapper-eOmU90>div.subText-3Yps8e {
-	font-size:                       12px !important;
-	font-weight:                      500 !important;
-	color: var(--header-secondary)        !important;
 }
 #appearance-tab>div>div.children-1xdcWE>div:nth-child(1)>div {
 	border: 2px solid var(--border-black) !important;
@@ -1846,10 +1808,9 @@ button.marginBottom8-emkd0_.button-1cRKG6.button-f2h6uQ.lookFilled-yCfaCM.colorB
 	transform:        translate(28px, -85%) !important;
 	background:       var(--bgDarkness3)    !important;
 	background-position:             center !important;
-	border: 4px ridge var(--border-primary) !important;
-	border-radius:                      4px !important;
+	border: 1px solid var(--border-primary) !important;
+	border-radius:                      6px !important;
 	padding:                        6px 6px !important;
-	box-shadow:    0 0 6px 2px var(--black) !important;
 }
 .toolbar-37BrJ5 .button-lA2rvH {
 	width:                             100% !important;
@@ -1859,7 +1820,7 @@ button.marginBottom8-emkd0_.button-1cRKG6.button-f2h6uQ.lookFilled-yCfaCM.colorB
 .toolbar-37BrJ5 .button-lA2rvH:hover {
 	background:       var(--bgDarkness1)    !important;
 	background-position:             center !important;
-	border-radius:                      4px !important;
+	border-radius:                      6px !important;
 }
 .toolbar-37BrJ5 .button-lA2rvH::after {
 	color: var(--text-normal)  !important;
@@ -2102,13 +2063,6 @@ button.marginBottom8-emkd0_.button-1cRKG6.button-f2h6uQ.lookFilled-yCfaCM.colorB
 /*                                  ╩ ╩╩═╝╩╚═╝╝╚╝╩ ╩╚═╝╝╚╝ ╩                                   */
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-/* ◦◦◦◦◦◦◦◦◦ The Position Of The Emoji Selector Box When Right Clicking Add Reaction ◦◦◦◦◦◦◦◦◦ */
-
-.wrapper-3u51GQ:not([class="wrapper-3u51GQ emojiPickerInExpressionPicker-2nOwH8"]) {
-	position: fixed !important;
-	right:     16px !important;
-	bottom:    88px !important;
-}
 /* ◦◦◦◦◦◦ Adjusts The Gap Between The Input Box And Buttons When Adding A Phone Number ◦◦◦◦◦◦◦ */
 
 [class="inputField-1iYysB"] {
@@ -2557,10 +2511,6 @@ input[type=number] {
 /*                      ╩╚═╚═╝╩ ╩╚═╝ ╚╝ ╚═╝═╩╝  ╚═╝╩═╝╚═╝╩ ╩╚═╝╝╚╝ ╩ ╚═╝                       */
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-.notice-2HEN-u.noticeWrapper-8z511t.updateNotice-2DjjHs.colorDefault-1e8tQv>div.closeButton-30b1gR>svg,
-div.timeWrap-3zb-z5>div.title-11H0i9>div>span:nth-child(2)>div.defaultColor-24IHKz.text-xs-normal-3SiVjE.discrim-OWXlDD,
-div.timeWrap-3zb-z5>div.title-11H0i9>div>span:nth-child(3)>div.defaultColor-24IHKz.text-xs-normal-3SiVjE.discrim-OWXlDD,
-div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-24IHKz.text-xs-normal-3SiVjE.discrim-OWXlDD,
 .wrapper-1_HaEi .guildSeparator-a4uisj, .builtInSeparator-2rCueY, .children-3xh0VB:after, #guild-context>div>div.separator-1So4YB,
 .autocomplete-3NRXG8.outerWrapper-3UdjNj>div>div.rail-1BiMhk.wrapper-3z7DuG>div>div>div.listItems-6eZzQ1>div:nth-child(1),
 .autocomplete-3NRXG8.outerWrapper-3UdjNj>div>div.rail-1BiMhk.wrapper-3z7DuG>div>div>div.listItems-6eZzQ1>div:nth-child(1)>div>div,
@@ -2610,15 +2560,8 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 [class="betaTag-3I48C3 textBadge-1fdDPJ base-3IDx3L baseShapeRound-3epLEv"], [class="betaBadge-2VWhM5 textBadge-1fdDPJ base-3IDx3L baseShapeRound-3epLEv"],
 [class="slowModeIcon-35Psjn"], [class="communityInfoContainer-1dMVpU"], [class="iconWrapper-2awDjA"], [class="guildSeparator-a4uisj"],
 [class="guildCategorySeparator-3QYkij"], [class="mostPopularPill-28w8lV"], [class="newMessagesBar-1hF-9G barBase-3xxDXu"], [role="separator"],
-[class="diversitySelector-P-W_tU"], [class="iconLayout-SqV3nb medium-13kyaW"], [class="iconLayout-3Bjizv medium-2NClDM"],
-[class="text-sm-normal-3Zj3Iv h1-34Txb0 title-3hptVQ defaultColor-2cKwKo marginBottom20-315RVT"], [class="cameraWrapper-3a7Ngv"],
-[class="sectionTitle-3j2YI1"], [class="container-1zDvAE previewToggle-vfkyIm"], [class="backgroundOptionsLarge-3AnNpy backgroundOptions-3OjbsL"],
-[class="select-1Ia3hD selector-2eK4L1 lookFilled-1GseHa"], [class="select-1Ia3hD marginBottom20-315RVT lookFilled-1GseHa"],
-[class="eyebrow-Ejf06y defaultColor-HXu-5n spacingTop24-2Ctccb"], [class="eyebrow-Ejf06y defaultColor-HXu-5n spacingTop24-Uyez01"],
-[id="voice-&-video-tab"]>div>div.children-1xdcWE>div:nth-child(9), [id="voice-&-video-tab"]>div>div.children-1xdcWE>div:nth-child(16)>div.children-1xdcWE,
-[class="container-2giAcK"], [aria-label="Trade & Chill (server)"] .name-3Uvkvr, [aria-label="Trade & Chill (server)"] #channels>ul>div:nth-child(2) {
-	display: none !important;
-}
+[class="container-2giAcK"], [aria-label="Trade & Chill (server)"] .name-3Uvkvr, [aria-label="Trade & Chill (server)"] #channels>ul>div:nth-child(2) { display: none !important;}
+
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 /*                                          ╔═╗╔╗╔╔╦╗                                          */
 /*                                          ║╣ ║║║ ║║                                          */
@@ -2630,6 +2573,9 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 .sidebar-1tnWFu.hasNotice-1s68so, .platform-win .sidebar-1tnWFu.hasNotice-1s68so {
 	border-top-left-radius:            20px !important;
 }
+
+
+
 .bottomDivider-ZmTm-j {
 	border-bottom-color:        transparent !important;
 }
@@ -2643,7 +2589,7 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 .bar-1Bhnl9, .markDash-yk2kJ- {
 	background:       var(--bgDarkness3)    !important;
 	background-position:             center !important;
-	border: 2px solid var(--border-primary) !important;
+	border: 2px solid var(--gray-3)         !important;
 	border-radius:                      6px !important;
 	height:                            10px !important;
 }
@@ -2734,7 +2680,8 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 	background-color: var(--bgDarkness3)       !important;
 	background-position:                center !important;
 	border: 4px ridge var(--border-primary)    !important;
-	border-radius:                         4px !important;
+	border-radius:                         8px !important;
+	margin-left:                           2px !important;
 	filter: drop-shadow( 0 0 2px var(--black)) !important;
 }
 .scrollableContainer-15eg7h:hover, .scrollableContainer-15eg7h:focus-within {
@@ -2748,11 +2695,12 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 /* ◦◦◦◦◦◦◦◦◦◦ Position And Style Of The Popup Atatchment Bat When Using A Commaand ◦◦◦◦◦◦◦◦◦◦◦ */
 
 .attachedBars-2BCP3l {
+	margin-right:                       2px !important;
 	background:       var(--bgDarkness3)    !important;
 	background-position:             center !important;
-	border: 4px ridge var(--border-primary) !important;
-	border-top-left-radius:             4px !important;
-	border-top-right-radius:            4px !important;
+	border: 2px solid var(--border-primary) !important;
+	border-top-left-radius:             8px !important;
+	border-top-right-radius:            8px !important;
 	border-bottom:                     none !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Position Of The Bot Icon In The Chatbox When Using A Command ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
@@ -2799,9 +2747,6 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 	background: var(--bgDarkness1)    !important;
 	background-position:       center !important;
 }
-.optionPillValue-2uxsMp {
-	padding-right:               10px !important;
-}
 .optionPill-2kmuZR {
 	background: var(--bgDarkness1)             !important;
 	background-position:                center !important;
@@ -2831,7 +2776,7 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 }
 
 .autocomplete-3jLKbj {
-	border:     none !important;
+	border: 2px solid var(--border-primary) !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦  ◦◦◦◦◦◦◦◦◦◦ */
 
@@ -2852,13 +2797,14 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 #app-mount form [class*="autocomplete-"] {
 	border: 4px ridge var(--border-primary) !important;
 	border-radius:                      4px !important;
+	margin-bottom:                      2px !important;
 }
 .autocompleteRow-14iwvH {
 	padding-right:               8px !important;
 	padding-left:                8px !important;
 }
 .contentTitle-3CylD3 {
-	font-size:                  14px !important;
+	font-size: 14px !important;
 	text-transform:       capitalize !important;
 	color: var(--interactive-active) !important;
 	padding-left:                8px !important;
@@ -3224,6 +3170,11 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 	background-position:             center !important;
 	border-radius:                      6px !important;
 }
+div.timeWrap-3zb-z5>div.title-11H0i9>div>span:nth-child(2)>div.defaultColor-24IHKz.text-xs-normal-3SiVjE.discrim-OWXlDD,
+div.timeWrap-3zb-z5>div.title-11H0i9>div>span:nth-child(3)>div.defaultColor-24IHKz.text-xs-normal-3SiVjE.discrim-OWXlDD,
+div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-24IHKz.text-xs-normal-3SiVjE.discrim-OWXlDD {
+	display:       none !important;
+}
 /* ◦◦◦◦◦◦◦◦◦◦◦◦ Removes The Majority Of The Borders And Hides The Divider Lines ◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 .separator-2wx7h6, .separator-178dlw, .dividerDefault-3C2-ws, .divider-1tWBgZ, .divider-q3P9HC, .divider-wz_a_k,
@@ -3374,45 +3325,6 @@ svg.closeIcon-3aZ-RA:hover {
 	background: transparent !important;
 	border:            none !important;
 }
-
-.emojiSection-3QtaWO>div>div>div.defaultColor-24IHKz.text-md-semibold-3xVVGu>div {
-	font-size:              14px !important;
-	font-weight:             600 !important;
-	color: var(--header-primary) !important;
-}
-.guildSection-2Zyzy8>h5 {
-	font-size:              14px !important;
-	font-weight:             600 !important;
-	color: var(--header-primary) !important;
-	text-transform:         none !important;
-	margin-top:            -10px !important;
-}
-.guildSection-2Zyzy8>div>div>div:nth-child(1)>div>h3>div {
-	font-size:              14px !important;
-	font-weight:             500 !important;
-	color: var(--header-primary) !important;
-}
-.emojiSection-3QtaWO>div>div>div.defaultColor-24IHKz.text-sm-normal-3Zj3Iv,
-.guildSection-2Zyzy8>div>div>div:nth-child(2)>div:nth-child(1),
-.guildSection-2Zyzy8>div>div>div:nth-child(2)>div:nth-child(3) {
-	font-size:          12px !important;
-	font-weight:         500 !important;
-	color: var(--text-muted) !important;
-}
-.emojiSection-3QtaWO, .guildSection-2Zyzy8 {
-	padding: 10px !important;
-}
-.popoutContainer-2wbmiM {
-	width:                            280px !important;
-	border: 4px ridge var(--border-primary) !important;
-	border-radius:                      4px !important;
-	background: var(--bgDarkness3)          !important;
-	box-shadow:    0 0 6px 2px var(--black) !important;
-	overflow:                        hidden !important;
-}
-.emoji.jumboable {
-	transform: scale(85%) !important;
-}
-[id="voice-&-video-tab"]>div>div.children-1xdcWE>div:nth-child(15)>div:nth-child(6) {
-	margin-bottom: -14px  !important;
+[class="diversitySelector-P-W_tU"], [class="iconLayout-SqV3nb medium-13kyaW"], [class="iconLayout-3Bjizv medium-2NClDM"] {
+	display:           none !important;
 }
