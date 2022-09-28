@@ -513,7 +513,7 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 .notDetected-M3Ghh2, .nowPlaying-3UpuKc, .paginator-1eqD2g, .bottomDivider-ZmTm-j, .profileBannerPreview-3mLIdO, .input-2m5SfJ, .avatarUploaderInnerSquareDisabled-3M9eJS,
 .userPopoutInner-PA9zkU, .overlayBackground-arbZMT, .userPopoutInnerNonPremium-3zrFkp, .banner-2boKnS, .popoutBanner-16rVDY, .profileBanner-2zIsK7, .memberRow-1FhJgR, .activeGame-3ncS55,
 [class="content-2hZxGK thin-31rlnD scrollerBase-_bVAAt"]>[class="problemInfo-1QppuA"]>div, [class="select-1Ia3hD open-1FRZsK lookFilled-1GseHa"], [class="select-1Ia3hD lookFilled-1GseHa"],
-.userPopoutInner-1v4xcM, .overlayBackground-2Zjm9f {
+.userPopoutInner-1v4xcM, .userPopout-2j1gM4, .overlayBackground-2Zjm9f {
 	background: var(--bgDarkness3) !important;
 	background-clip:    border-box !important;
 	background-origin: padding-box !important;
@@ -2651,6 +2651,7 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 [class="sectionTitle-3j2YI1"], [class="container-1zDvAE previewToggle-vfkyIm"], [class="backgroundOptionsLarge-3AnNpy backgroundOptions-3OjbsL"],
 [class="select-1Ia3hD selector-2eK4L1 lookFilled-1GseHa"], [class="select-1Ia3hD marginBottom20-315RVT lookFilled-1GseHa"],
 [class="eyebrow-Ejf06y defaultColor-HXu-5n spacingTop24-2Ctccb"], [class="eyebrow-Ejf06y defaultColor-HXu-5n spacingTop24-Uyez01"],
+[class="item-1OdjEX colorDefault-CDqZdO hideInteraction-2jPGL_"],
 [id="voice-&-video-tab"]>div>div.children-1xdcWE>div:nth-child(9), [id="voice-&-video-tab"]>div>div.children-1xdcWE>div:nth-child(16)>div.children-1xdcWE,
 [class="container-2giAcK"], [aria-label="Trade & Chill (server)"] .name-3Uvkvr, [aria-label="Trade & Chill (server)"] #channels>ul>div:nth-child(2) {
 	display: none !important;
@@ -3357,7 +3358,6 @@ svg.closeIcon-3aZ-RA:hover {
 	border-bottom:                             none !important;
 	background: var(--background-message-highlight) !important;
 }
-
 .profileCustomizationPreview-2-Y173 {
 	background: var(--bgDarkness3)          !important;
 	min-height:                       120px !important;
