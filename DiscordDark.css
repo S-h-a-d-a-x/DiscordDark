@@ -719,7 +719,8 @@ svg.icon-2W8DHg>path {
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Changes All The Text To Be Regular And Not Italic ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 .markup-eYLPri em {
-	font-style:                          normal !important;
+	font-family: var(--font-primary)      !important;
+	font-style:                    normal !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ My Username In Mentioned Messages ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -750,15 +751,38 @@ em>span {
 	border-radius:                    6px !important;
 	padding:                      2px 4px !important;
 }
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Font Style For The Executed Command Reply ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
+.executedCommand-14-SNW .applicationName-19i3lP, .executedCommand-14-SNW .commandName-1KhvGm,
+.executedCommand-14-SNW .username-h_Y3Us, .username-h_Y3Us {
+	opacity:         1 !important;
+}
+[class="repliedMessage-3Z6XBG"], [class="repliedTextPreview-1bvxun clickable-31pE3P"],
+.repliedMessage-3Z6XBG .repliedTextPreview-1bvxun .repliedTextContent-2hOYMB,
+.repliedMessage-3Z6XBG .repliedTextPreview-1bvxun .repliedTextContent-2hOYMB strong {
+	font-family: var(--font-primary) !important;
+	font-size:                  14px !important;
+	max-height:                 none !important;
+}
+[aria-label="Old School Bot replying to Old School Bot"] .username-h_Y3Us {
+	color: var(--osb)  !important;
+	filter:       none !important;
+}
+[aria-label="Bot School Old replying to Bot School Old"] .username-h_Y3Us {
+	color: var(--bso)  !important;
+	filter:       none !important;
+}
 [class="repliedMessage-3Z6XBG"] [class="mention wrapper-1ZcZW- mention interactive"] {
+	font-family: var(--font-primary)      !important;
 	font-size:                       14px !important;
 	font-weight:                      600 !important;
-	line-height:                     24px !important;
 	background:       var(--bgDarkness3)  !important;
 	border: 2px ridge var(--border-black) !important;
 	border-radius:                    6px !important;
 	padding:                      0px 2px !important;
+}
+#app-mount .repliedMessage-3Z6XBG::before {
+	border-color: var(--border-secondary) !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦ Background For When Mentioning Someone In The Chat Input Box ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -775,12 +799,14 @@ em>span {
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Font And Background Style Inside Markup Code ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 .markup-eYLPri {
+	font-family: var(--font-primary)      !important;
 	font-size:                       16px !important;
 	font-weight:                      500 !important;
 	line-height:                     24px !important;
 	color:            var(--text-normal)  !important;
 }
 .markup-eYLPri code:not(.markup-eYLPri code.inline):not(.markup-eYLPri pre>code.scrollbarGhostHairline-2LpzZ9.scrollbar-3vVt8d):not(.cozy-VmLDNB .messageContent-2t3eCI>em>code) {
+	font-family: var(--font-primary)      !important;
 	font-size:                       14px !important;
 	font-weight:                      500 !important;
 	line-height:                     24px !important;
@@ -802,8 +828,15 @@ em>span {
 	border-radius:                    6px !important;
 	padding:                      0px 2px !important;
 }
-.cozy-VmLDNB .messageContent-2t3eCI>em>code {
+.cozy-VmLDNB .contents-2MsGLg {
 	font-family: var(--font-primary)      !important;
+	font-size:                       16px !important;
+	font-weight:                      500 !important;
+	line-height:                     24px !important;
+	font-style:                    normal !important;
+	color:            var(--text-normal)  !important;
+}
+.cozy-VmLDNB .messageContent-2t3eCI>em>code {
 	font-size:                       16px !important;
 	font-weight:                      500 !important;
 	line-height:                     24px !important;
@@ -818,21 +851,21 @@ em>span {
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Bold Text Style ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 .markup-eYLPri>strong {
-	font-size:                 16px !important;
-	font-weight:                600 !important;
-	color: var(--header-secondary)  !important;
-	outline:                   none !important;
+	font-size:                  16px !important;
+	font-weight:                 600 !important;
+	color: var(--header-secondary)   !important;
+	outline:                    none !important;
 }
 .embedDescription-1DrJxZ.embedMargin-2PsaQ4>strong {
-	font-size:                14px !important;
-	font-weight:               600 !important;
-	color: var(--text-normal)      !important;
-	text-decoration:          none !important;
+	font-size:                  14px !important;
+	font-weight:                 600 !important;
+	color: var(--text-normal)        !important;
+	text-decoration:            none !important;
 }
 .embedFieldValue-3EHtvR>strong {
-	font-size:                14px !important;
-	font-weight:               600 !important;
-	color: var(--header-secondary) !important;
+	font-size:                  14px !important;
+	font-weight:                 600 !important;
+	color: var(--header-secondary)   !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Timestamp background ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -850,36 +883,36 @@ em>span {
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Font Style For All Placeholder Text ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 ::placeholder, .placeholder-1rCBhr, .public-DraftEditorPlaceholder-root {
-	font-size:            14px !important;
-	font-weight:           600 !important;
-	color: var(--text-muted)   !important;
-	text-transform: capitalize !important;
+	font-size:                  14px !important;
+	font-weight:                 600 !important;
+	color: var(--text-muted)         !important;
+	text-transform:       capitalize !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Font Style Inside Embedded Messages ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 .embed-hKpSrO code {
-	font-size:              14px !important;
-	font-weight:             600 !important;
+	font-size:                  14px !important;
+	font-weight:                 600 !important;
 }
 .embedFieldName-9LYSyR {
-	font-size:              16px !important;
-	font-weight:             600 !important;
-	color: var(--header-primary) !important;
+	font-size:                  16px !important;
+	font-weight:                 600 !important;
+	color: var(--header-primary)     !important;
 }
 .embedFieldValue-3EHtvR {
-	font-size:              14px !important;
-	font-weight:             500 !important;
-	color: var(--text-normal)    !important;
+	font-size:                  14px !important;
+	font-weight:                 500 !important;
+	color: var(--text-normal)        !important;
 }
 .embedDescription-1DrJxZ {
-	font-size:              14px !important;
-	font-weight:             500 !important;
-	line-height:            24px !important;
+	font-size:                  14px !important;
+	font-weight:                 500 !important;
+	line-height:                24px !important;
 }
 .embedFooterText-2Mc7H9 {
-	font-size:              12px !important;
-	font-weight:             600 !important;
-	color: var(--text-muted)     !important;
+	font-size:                  12px !important;
+	font-weight:                 600 !important;
+	color: var(--text-muted)         !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Popup Display Banner When Your Subscription Is Running Out ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -974,15 +1007,6 @@ em>span {
 	margin-top:     0px !important;
 	margin-bottom: -8px !important;
 }
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Font Style For The Executed Command Reply ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
-.executedCommand-14-SNW .applicationName-19i3lP, .executedCommand-14-SNW .commandName-1KhvGm,
-.executedCommand-14-SNW .username-h_Y3Us {
-	opacity:                  1 !important;
-}
-#app-mount .repliedMessage-3Z6XBG::before {
-	border-color: var(--border-secondary) !important;
-}
 /* ◦◦◦◦◦◦◦◦◦ Background Style For The Extra Options Box In The Autocomplete Menu ◦◦◦◦◦◦◦◦◦◦◦ */
 
 .option-Tt7anD {
@@ -1049,11 +1073,6 @@ em>span {
 	color: var(--light-yellow) !important;
 	margin-left:           4px !important;
 	border-radius:         8px !important;
-}
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ All Usernames In The Chat Opacity Level ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
-.username-h_Y3Us {
-	opacity: 1 !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Chat Avatar Popout Box Background Color And Position ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -2491,6 +2510,9 @@ input[type=number] {
 /*              OSB Bot name, font size, color, and avatar in mentioned messages               */
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
+[aria-label="Messages in 𝗢𝗦𝗕"] .mentioned-Tre-dv .username-h_Y3Us {
+	color: var(--osb) !important;
+}
 [data-author-id="984019276237250631"] .username-h_Y3Us, [data-author-id="915985171545747536"] .username-h_Y3Us {
 	color: var(--osb) !important;
 }
@@ -2504,6 +2526,9 @@ input[type=number] {
 /*              BSO Bot name, font size, color, and avatar in mentioned messages               */
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
+[aria-label="Messages in 𝗕𝗦𝗢"] .mentioned-Tre-dv .username-h_Y3Us {
+	color: var(--bso) !important;
+}
 [data-author-id="984023420847161395"] .username-h_Y3Us, [data-author-id="915985229896880179"] .username-h_Y3Us {
 	color: var(--bso) !important;
 }
