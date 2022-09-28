@@ -762,6 +762,7 @@ em>span {
 .repliedMessage-3Z6XBG .repliedTextPreview-1bvxun .repliedTextContent-2hOYMB strong {
 	font-family: var(--font-primary) !important;
 	font-size:                  14px !important;
+	line-height:                18px !important;
 	max-height:                 none !important;
 }
 [aria-label="Old School Bot replying to Old School Bot"] .username-h_Y3Us {
