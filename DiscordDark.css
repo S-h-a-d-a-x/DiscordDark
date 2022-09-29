@@ -465,7 +465,7 @@ div[data-list-item-id="guildsnav___home"]:hover  {
 .resultsGroup-1BPR25, .previewCard-DOrO3c, .card-3_CqkU, .scroller-1J_F7B, .css-1ba14n5-option, .circleButton-33AIyY, .perksModal-fSYqOq, .contentRegion-3HkfJJ,
 div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1kSAf6, .contentRegionScroller-2_GT_N.auto-2K3UW5.scrollerBase-_bVAAt,
 .unreadBar-elBRZx, .peopleColumn-1wMU14, .nowPlayingColumn-1eCBCN, .content-3spvdd, .folderIconWrapper-1_bOZe, .expandedFolderBackground-1cujaW, .container-1oAagU,
-.wrapper-2h7HDT, .upload-3GTSF9, .popout-TdhJ6Z, .checklistItem-1gWPPD, .optionContainer-yOpaLq, .card-8UsK4b, .insightsActions-3cTXpa, .expandedInfo-1W31i3,
+.wrapper-2h7HDT, .upload-3GTSF9, .popout-TdhJ6Z, .checklistItem-1gWPPD, .optionContainer-yOpaLq, .insightsActions-3cTXpa, .expandedInfo-1W31i3,
 .contentWidth-3aWel5, .header-JUTO-g, .folderIconWrapper-1oRIZr, .loadingPopout-1feYe_, .button-12Fmur:hover, .option-2eIyOn.focused-ODgjnC, .option-2eIyOn:hover {
 	background: var(--bgDarkness1) !important;
 	background-clip:    border-box !important;
@@ -478,7 +478,7 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Darkness 2 Background Image ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 #app-mount>div.appDevToolsWrapper-1QxdQf>div>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div.container-1eFtFS>div>div.content-1SgpWY>div.container-2cd8Mz>section,
-.searchFilter-2UfsDk, .searchAnswer-23w-CH, .floating-window-titlebar, .floating-window.resizable, .form-3gdLxP, .searchBar-3TnChZ,
+.searchFilter-2UfsDk, .searchAnswer-23w-CH, .floating-window-titlebar, .floating-window.resizable, .form-3gdLxP, .searchBar-3TnChZ, .card-8UsK4b,
 .option-2eIyOn, [class="container-1NXEtd"], .title-31SJ6t, .bd-description-wrap, .bd-footer, .scroller-WSmht3, .sidebar-1tnWFu, [class="panels-3wFtMD"],
 #bd-editor-controls:not(.clickable-vvKY2q .header-3OsQeK:hover, .selected-1GtAC5 .header-3OsQeK), .radioBar-3w9XY-:hover, .topPill-3DJJNV:not([class="tabBar-1qdMr5 topPill-3DJJNV"]),
 [class="scroller-kQBbkU auto-2K3UW5 scrollerBase-_bVAAt disableScrollAnchor-6TwzvM managedReactiveScroller-1lEEh3"], [class="scroller-kQBbkU auto-2K3UW5 scrollerBase-_bVAAt disableScrollAnchor-6TwzvM managedReactiveScroller-1lEEh3 scrolling-20Of9p"] {
@@ -534,6 +534,12 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 	border: 2px solid var(--border-primary) !important;
 	border-radius:                      6px !important;
 }
+.card-8UsK4b {
+	border: 4px ridge var(--border-primary) !important;
+	border-radius:                      4px !important;
+}
+
+
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Background For The Footer In Message Text Attachments ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 [class="container-2sjPya"]>[class="messageAttachment-CZp8Iv"]>[class="embedWrapper-1MtIDg attachmentContentItem-UKeiCx container-rr3Ruk"]>[class="text-sm-normal-3Zj3Iv footer-GXWBBp"] {
@@ -552,9 +558,9 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 	color:      var(--info-warning-foreground) !important;
 }
 .root-g14mjS {
-	border:       1px solid var(--border-primary) !important;
-	border-radius:                            6px !important;
-	box-shadow: 0 0 6px 2px var(--border-primary) !important;
+	border:    4px ridge var(--border-primary) !important;
+	border-radius:                         4px !important;
+	box-shadow: 0 0 6px 2px var(--black)       !important;
 }
 [class="modal-3Crloo root-g14mjS fullscreenOnMobile-ixj0e3"]>[class="wrapper-2bCXfR"]>[class="imageWrapper-oMkQl4 image-36HiZc"] {
 	background: var(--bgDarkness2) !important;
@@ -586,7 +592,7 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 }
 #overlay-tab>div.marginTop40-Q4o1tS>div.children-1xdcWE>div:nth-child(1)>div>div>div>div.wrapper-SdcMKg {
 	border: 4px solid var(--border-secondary) !important;
-	background: var(--bgDarkness1) !important;
+	background: var(--bgDarkness1)            !important;
 }
 .codeRedemptionRedirect-2hYMSQ {
 	border:            none !important;
