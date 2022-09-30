@@ -2529,6 +2529,10 @@ input[type=number] {
 [data-user-id="915985171545747536"]   .avatar-2Vndt_ {
 	content: url("https://cdn.discordapp.com/avatars/303730326692429825/183f4b9794fb34acbc4ffaaa840b099f.webp?size=80")!important;
 }
+
+[aria-label="Messages in 𝗢𝗦𝗕"] .mentioned-Tre-dv .avatar-2e8lTP {
+	content: url("https://cdn.discordapp.com/avatars/303730326692429825/e38cc84cba38060b8da7762f69e50830.webp?size=80")!important;
+}
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 /*              BSO Bot name, font size, color, and avatar in mentioned messages               */
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
@@ -2540,10 +2544,14 @@ input[type=number] {
 	color: var(--bso) !important;
 }
 [data-author-id="915985229896880179"] .avatar-2e8lTP {
-	content: url("https://cdn.discordapp.com/avatars/729244028989603850/02a41d2dfd9eee25ac3ca8d60f8a4976.webp?size=80")!important;
+	content: url("https://cdn.discordapp.com/avatars/729244028989603850/54d80e8799606e3b8752c016bf47dea8.webp?size=80")!important;
 }
 [data-user-id="915985229896880179"] .avatar-2Vndt_ {
-	content: url("https://cdn.discordapp.com/avatars/729244028989603850/02a41d2dfd9eee25ac3ca8d60f8a4976.webp?size=80")!important;
+	content: url("https://cdn.discordapp.com/avatars/729244028989603850/54d80e8799606e3b8752c016bf47dea8.webp?size=80")!important;
+}
+
+[aria-label="Messages in 𝗕𝗦𝗢"] .mentioned-Tre-dv .avatar-2e8lTP {
+	content: url("https://cdn.discordapp.com/avatars/729244028989603850/54d80e8799606e3b8752c016bf47dea8.webp?size=80")!important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 /*                      ╔═╗╔═╗╔═╗  ╔═╗╦ ╦╔╦╗  ╔═╗╔═╗╔═╗  ╔═╗╔╦╗╦╔╦╗╔═╗╦═╗                      */
@@ -2560,10 +2568,74 @@ input[type=number] {
 	border-radius:                          6px !important;
 	box-shadow: 0 0 8px 2px var(--border-black) !important;
 }
+#floating-editor-window, .floating-window, .floating-addon-window, .editor,
+.monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input, .monaco-aria-container,
+.floating-window-content, .floating-window.resizable, .monaco-editor .margin, .monaco-editor .minimap,
+.monaco-editor .minimap-slider, .monaco-editor .minimap-slider .minimap-slider-horizontal {
+	background: var(--bgDarkness3) !important;
+}
+.monaco-editor .minimap-shadow-visible {
+	box-shadow:               none !important;
+}
+.monaco-editor .minimap.slider-mouseover .minimap-slider {
+	opacity:                   0.5 !important;
+}
+[class="invisible scrollbar vertical fade"], [class="visible scrollbar vertical"],
+[class="invisible scrollbar horizontal fade"], [class="visible scrollbar horizontal"] {
+	background: var(--bgDarkness1) !important;
+	opacity:                     1 !important;
+	border:                   none !important;
+}
 .vs-dark .monaco-scrollable-element>.scrollbar>.slider {
-	background: var(--bgDarkness3)              !important;
-	background-position:                 center !important;
-	border-radius:                          6px !important;
+	background: var(--bgDarkness3)                 !important;
+	background-position:                    center !important;
+	border-radius:                             6px !important;
+}
+.vs-dark .monaco-scrollable-element>.scrollbar>.slider.active {
+	background: var(--bgDarkness3)                 !important;
+	background-position:                    center !important;
+	border-radius:                             6px !important;
+}
+.monaco-editor .find-widget {
+	background:                 var(--bgDarkness2) !important;
+	border-left:   2px solid var(--border-primary) !important;
+	border-bottom: 2px solid var(--border-primary) !important;
+	border-bottom-left-radius:                 6px !important;
+	height:                                   38px !important;
+	margin-right:                            -14px !important;
+	box-shadow:                               none !important;
+}
+.monaco-inputbox>.wrapper>textarea.input.empty::placeholder {
+	font-size:          12px !important;
+	font-weight:         600 !important;
+	line-height:        24px !important;
+	color: var(--text-muted) !important;
+}
+.monaco-editor .find-widget>.find-part .monaco-inputbox>.wrapper>.input, .monaco-editor .find-widget>.find-part .monaco-inputbox>.wrapper>.mirror,
+.monaco-editor .find-widget>.replace-part .monaco-inputbox>.wrapper>.input, .monaco-editor .find-widget>.replace-part .monaco-inputbox>.wrapper>.mirror,
+.monaco-inputbox.idle {
+	font-size:                12px !important;
+	font-weight:               400 !important;
+	line-height:              22px !important;
+	color: var(--text-normal)      !important;
+	background: var(--bgDarkness3) !important;
+	padding-top:                 0 !important;
+	padding-bottom:              0 !important;
+}
+.monaco-editor .find-widget .monaco-findInput .monaco-scrollable-element {
+	border: 2px solid var(--border-primary) !important;
+	border-radius:                      4px !important;
+}
+.monaco-findInput>.controls {
+	top:   4px !important;
+	right: 2px !important;
+}
+.codicon[class*=codicon-] {
+	color: var(--text-normal)    !important;
+}
+.codicon[class*=codicon-]:hover {
+	color: var(--header-primary) !important;
+	background:      transparent !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 /*   Increases the gap of the most recent messages in the chat for my my quick react script    */
@@ -2657,7 +2729,7 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 [class="sectionTitle-3j2YI1"], [class="container-1zDvAE previewToggle-vfkyIm"], [class="backgroundOptionsLarge-3AnNpy backgroundOptions-3OjbsL"],
 [class="select-1Ia3hD selector-2eK4L1 lookFilled-1GseHa"], [class="select-1Ia3hD marginBottom20-315RVT lookFilled-1GseHa"],
 [class="eyebrow-Ejf06y defaultColor-HXu-5n spacingTop24-2Ctccb"], [class="eyebrow-Ejf06y defaultColor-HXu-5n spacingTop24-Uyez01"],
-[class="item-1OdjEX colorDefault-CDqZdO hideInteraction-2jPGL_"],
+[class="item-1OdjEX colorDefault-CDqZdO hideInteraction-2jPGL_"], [class="monaco-sash vertical"],
 [id="voice-&-video-tab"]>div>div.children-1xdcWE>div:nth-child(9), [id="voice-&-video-tab"]>div>div.children-1xdcWE>div:nth-child(16)>div.children-1xdcWE,
 [class="container-2giAcK"], [aria-label="Trade & Chill (server)"] .name-3Uvkvr, [aria-label="Trade & Chill (server)"] #channels>ul>div:nth-child(2) {
 	display: none !important;
