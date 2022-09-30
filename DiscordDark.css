@@ -478,9 +478,9 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Darkness 2 Background Image ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 #app-mount>div.appDevToolsWrapper-1QxdQf>div>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div.container-1eFtFS>div>div.content-1SgpWY>div.container-2cd8Mz>section,
-.searchFilter-2UfsDk, .searchAnswer-23w-CH, .floating-window-titlebar, .floating-window.resizable, .form-3gdLxP, .searchBar-3TnChZ, .card-8UsK4b,
+.searchFilter-2UfsDk, .searchAnswer-23w-CH, .form-3gdLxP, .searchBar-3TnChZ, .card-8UsK4b,
 .option-2eIyOn, [class="container-1NXEtd"], .title-31SJ6t, .bd-description-wrap, .bd-footer, .scroller-WSmht3, .sidebar-1tnWFu, [class="panels-3wFtMD"],
-#bd-editor-controls:not(.clickable-vvKY2q .header-3OsQeK:hover, .selected-1GtAC5 .header-3OsQeK), .radioBar-3w9XY-:hover, .topPill-3DJJNV:not([class="tabBar-1qdMr5 topPill-3DJJNV"]),
+.radioBar-3w9XY-:hover, .topPill-3DJJNV:not([class="tabBar-1qdMr5 topPill-3DJJNV"]),
 [class="scroller-kQBbkU auto-2K3UW5 scrollerBase-_bVAAt disableScrollAnchor-6TwzvM managedReactiveScroller-1lEEh3"], [class="scroller-kQBbkU auto-2K3UW5 scrollerBase-_bVAAt disableScrollAnchor-6TwzvM managedReactiveScroller-1lEEh3 scrolling-20Of9p"] {
 	background: var(--bgDarkness2) !important;
 	background-clip:    border-box !important;
@@ -513,7 +513,8 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 .notDetected-M3Ghh2, .nowPlaying-3UpuKc, .paginator-1eqD2g, .bottomDivider-ZmTm-j, .profileBannerPreview-3mLIdO, .input-2m5SfJ, .avatarUploaderInnerSquareDisabled-3M9eJS,
 .userPopoutInner-PA9zkU, .overlayBackground-arbZMT, .userPopoutInnerNonPremium-3zrFkp, .banner-2boKnS, .popoutBanner-16rVDY, .profileBanner-2zIsK7, .memberRow-1FhJgR, .activeGame-3ncS55,
 [class="content-2hZxGK thin-31rlnD scrollerBase-_bVAAt"]>[class="problemInfo-1QppuA"]>div, [class="select-1Ia3hD open-1FRZsK lookFilled-1GseHa"], [class="select-1Ia3hD lookFilled-1GseHa"],
-.userPopoutInner-1v4xcM, .userPopout-2j1gM4, .overlayBackground-2Zjm9f {
+.userPopoutInner-1v4xcM, .userPopout-2j1gM4, .overlayBackground-2Zjm9f, #bd-editor-controls:not(.clickable-vvKY2q .header-3OsQeK:hover, .selected-1GtAC5 .header-3OsQeK),
+.floating-window-titlebar, .floating-window.resizable {
 	background: var(--bgDarkness3) !important;
 	background-clip:    border-box !important;
 	background-origin: padding-box !important;
@@ -1056,9 +1057,8 @@ em>span {
 
 .layers-OrUESM.layers-1YQhyW>div:nth-child(2)>div>div>div.sidebarRegion-1VBisG>div>nav>div>div:nth-child(1) {
 	font-size:            14px !important;
-	font-weight:           400 !important;
+	font-weight:           600 !important;
 	color: var(--light-yellow) !important;
-	letter-spacing:    .015rem !important;
 	text-transform: capitalize !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ My Username Color Within The Bottom Left Settings Box ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
@@ -2572,7 +2572,7 @@ input[type=number] {
 .monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input, .monaco-aria-container,
 .floating-window-content, .floating-window.resizable, .monaco-editor .margin, .monaco-editor .minimap,
 .monaco-editor .minimap-slider, .monaco-editor .minimap-slider .minimap-slider-horizontal {
-	background: var(--bgDarkness3) !important;
+	background: var(--bgDarkness1) !important;
 }
 .monaco-editor .minimap-shadow-visible {
 	box-shadow:               none !important;
@@ -2597,7 +2597,7 @@ input[type=number] {
 	border-radius:                             6px !important;
 }
 .monaco-editor .find-widget {
-	background:                 var(--bgDarkness2) !important;
+	background:                 var(--bgDarkness3) !important;
 	border-left:   2px solid var(--border-primary) !important;
 	border-bottom: 2px solid var(--border-primary) !important;
 	border-bottom-left-radius:                 6px !important;
@@ -2618,7 +2618,7 @@ input[type=number] {
 	font-weight:               400 !important;
 	line-height:              22px !important;
 	color: var(--text-normal)      !important;
-	background: var(--bgDarkness3) !important;
+	background: var(--bgDarkness2) !important;
 	padding-top:                 0 !important;
 	padding-bottom:              0 !important;
 }
@@ -2689,7 +2689,7 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 .defaultColor-24IHKz.text-xs-normal-3SiVjE.marginTop8-24uXGp.footerText-2QLGHU, .inviteBannerUpsell-1t_LYM, div.children-3xh0VB>div.iconWrapper-2awDjA>svg>path,
 #widget-tab>div>div.children-1xdcWE>div:nth-child(6)>div>img, .iconWrapper-2awDjA>svg>g>path:nth-child(1), .chat-2ZfjoI>section>div.children-3xh0VB>div.iconWrapper-2awDjA,
 #overview-tab>div>div.children-1xdcWE>div:nth-child(5)>div>div.children-1xdcWE>div:nth-child(1)>div>div.flexChild-3PzYmX>img, .tutorialMessages-3zmloc,
-.emptyStateCTA-206J-N, .emptyStateNote-3W5lug, .block-3Xiiq7 .pro-3GwLMX, .block-3Xiiq7 .tip-Jl__cG, .tip-Jl__cG, .protip-1jXzAl,
+.emptyStateCTA-206J-N, .emptyStateNote-3W5lug, .block-3Xiiq7 .pro-3GwLMX, .block-3Xiiq7 .tip-Jl__cG, .tip-Jl__cG, .protip-1jXzAl, .activity-E0U09Y, .section-3FmfOT>h3,
 #hypesquad-online-tab>div.features-6z-RVS>div.outer-VAWfYQ.video-293uMj.videoWrapper-1_H3B3, #hypesquad-online-tab>div.features-6z-RVS>div.outer-VAWfYQ.video-293uMj.videoWrapper-1_H3B3>div>iframe,
 #add_friend-tab>[class="grid-1-I1AZ"], #add_friend-tab>[class="header-2N7BYf"], [id="user-context-call"], [id="channel-attach-THREAD"], [id="message-copy-image"],
 [aria-label="Channel header"] [alt=":blueAlarm:"], [aria-label="Channel header"] [alt=":redAlarm:"], [aria-label="Channel header"] [alt=":warning:"],
@@ -2729,7 +2729,7 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 [class="sectionTitle-3j2YI1"], [class="container-1zDvAE previewToggle-vfkyIm"], [class="backgroundOptionsLarge-3AnNpy backgroundOptions-3OjbsL"],
 [class="select-1Ia3hD selector-2eK4L1 lookFilled-1GseHa"], [class="select-1Ia3hD marginBottom20-315RVT lookFilled-1GseHa"],
 [class="eyebrow-Ejf06y defaultColor-HXu-5n spacingTop24-2Ctccb"], [class="eyebrow-Ejf06y defaultColor-HXu-5n spacingTop24-Uyez01"],
-[class="item-1OdjEX colorDefault-CDqZdO hideInteraction-2jPGL_"], [class="monaco-sash vertical"],
+[class="item-1OdjEX colorDefault-CDqZdO hideInteraction-2jPGL_"], [class="monaco-sash vertical"], [class="memberSinceContainer-3biwiY"],
 [id="voice-&-video-tab"]>div>div.children-1xdcWE>div:nth-child(9), [id="voice-&-video-tab"]>div>div.children-1xdcWE>div:nth-child(16)>div.children-1xdcWE,
 [class="container-2giAcK"], [aria-label="Trade & Chill (server)"] .name-3Uvkvr, [aria-label="Trade & Chill (server)"] #channels>ul>div:nth-child(2) {
 	display: none !important;
@@ -3529,4 +3529,9 @@ svg.closeIcon-3aZ-RA:hover {
 }
 [id="voice-&-video-tab"]>div>div.children-1xdcWE>div:nth-child(15)>div:nth-child(6) {
 	margin-bottom: -14px  !important;
+}
+.userTag-PXLYzP {
+    font-size:  14px !important;
+    font-weight: 500 !important;
+	margin-top:  4px !important;
 }
