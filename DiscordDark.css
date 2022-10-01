@@ -609,6 +609,7 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 	border: 2px solid var(--border-secondary) !important;
 	border-radius:                        4px !important;
 	background: var(--bgDarkness2)            !important;
+	padding: 8px 2px !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ User Profile Popout Colors ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -2559,7 +2560,7 @@ input[type=number] {
 /*                      ╩  ╚═╝╩    ╚═╝╚═╝ ╩   ╚═╝╚═╝╚═╝  ╚═╝═╩╝╩ ╩ ╚═╝╩╚═                      */
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-#floating-editor-window, .floating-window, .floating-addon-window {
+#floating-editor-window, .floating-window, .floating-addon-window, .bd-fallback-editor {
 	min-width:                            200px !important;
 	min-height:                            80px !important;
 	max-width:                           1520px !important;
@@ -2568,11 +2569,12 @@ input[type=number] {
 	border-radius:                          6px !important;
 	box-shadow: 0 0 8px 2px var(--border-black) !important;
 }
-#floating-editor-window, .floating-window, .floating-addon-window, .editor,
+#floating-editor-window, .floating-window, .floating-addon-window, .editor, .bd-fallback-editor,
 .monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input, .monaco-aria-container,
 .floating-window-content, .floating-window.resizable, .monaco-editor .margin, .monaco-editor .minimap,
 .monaco-editor .minimap-slider, .monaco-editor .minimap-slider .minimap-slider-horizontal {
 	background: var(--bgDarkness1) !important;
+	color: var(--text-normal);
 }
 .monaco-editor .minimap-shadow-visible {
 	box-shadow:               none !important;
@@ -3236,12 +3238,22 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 	min-height:                         0px !important;
 	min-width:                        272px !important;
 	background:                 transparent !important;
-	border: 2px solid var(--border-primary) !important;
+	border: 4px ridge var(--border-primary) !important;
+	border-top-left-radius:             4px !important;
+	border-top-right-radius:            4px !important;
+	border-bottom-left-radius:            0 !important;
+	border-bottom-right-radius:           0 !important;
+	box-shadow: 0 0 6px 0 var(--black)      !important;
 }
 .footer-GXWBBp {
 	min-width:                        272px !important;
-	border: 2px solid var(--border-primary) !important;
+	border: 4px ridge var(--border-primary) !important;
 	border-top:                        none !important;
+	border-top-left-radius:               0 !important;
+	border-top-right-radius:              0 !important;
+	border-bottom-left-radius:          4px !important;
+	border-bottom-right-radius:         4px !important;
+	box-shadow: 0 0 6px 0 var(--black)      !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
