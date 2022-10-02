@@ -231,7 +231,7 @@
 	--search-popout-option-non-text-color:                   rgba(200, 205, 205, 1);
 	--search-popout-option-filter-color:                     rgba(200, 205, 205, 1);
 	--search-popout-option-answer-color:                     rgba(200, 205, 205, 1);
-	--search-popout-date-picker-border:                         var(--border-primary);
+	--search-popout-date-picker-border:                      rgba( 25,  25,  25, 1);
 	--search-popout-date-picker-hint-text:                   rgba(200, 205, 205, 1);
 	--search-popout-date-picker-hint-value-text:             rgba(255, 255, 255, 1);
 	--search-popout-date-picker-hint-value-background:       rgba( 75,  75,  75, 1);
@@ -1175,6 +1175,7 @@ em>span {
 	line-height:              20px !important;
 	font-weight:               500 !important;
 	color: var(--header-secondary) !important;
+	padding-bottom:              0 !important;
 }
 .truncatingText-3gTyiq>h3>div {
 	font-size:    14px !important;
@@ -2582,6 +2583,7 @@ input[type=number] {
 .monaco-editor .minimap.slider-mouseover .minimap-slider {
 	opacity:                   0.5 !important;
 }
+[class="invisible scrollbar vertical"],
 [class="invisible scrollbar vertical fade"], [class="visible scrollbar vertical"],
 [class="invisible scrollbar horizontal fade"], [class="visible scrollbar horizontal"] {
 	background: var(--bgDarkness1) !important;
@@ -2684,7 +2686,7 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 #guild-header-popout>div>div:nth-child(2), #channel-context>div>div:nth-child(2), #textarea-context>div>div:nth-child(3), #message>div>div:nth-child(5),
 #guild-header-popout>div>div:nth-child(8), .container-1eFtFS>div>div.content-1SgpWY>div.chat-2ZfjoI>div.content-1jQy2l>div, .notice-2HEN-u.colorStreamerMode-8uoRWd,
 #app-mount>div.appDevToolsWrapper-1QxdQf>div>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div:nth-child(2)>div>div>div.sidebarRegion-1VBisG>div>nav>div>div:nth-child(18),
-.autocomplete-3NRXG8.outerWrapper-3UdjNj>div>div.rail-1BiMhk.wrapper-3z7DuG>div>div>div.listItems-6eZzQ1>div:nth-child(1)>div>div,
+.autocomplete-3NRXG8.outerWrapper-3UdjNj>div>div.rail-1BiMhk.wrapper-3z7DuG>div>div>div.listItems-6eZzQ1>div:nth-child(1)>div>div, .dim-2Uxgxb,
 :nth-child(1)>div.wrapper-1NNaWG.categoryHeader-OpJ1Ly>div>div>div, .message-2CShn3.selected-2LX7Jy .buttons-3dF5Kd, .mouse-mode .message-2CShn3:hover .buttons-3dF5Kd,
 #streamer-mode-tab>div>div.children-1xdcWE>div.formNotice-2nS8ey.marginBottom40-fvAlAV.cardPrimary-3qRT__.card-16VQ8C, .wordmarkWindows-2dq6rw.wordmark-2u86JB,
 .bd-changelog-button, div.premiumLabel-3HPvdB>svg, .subtext-2GlkbE, .unread-36eUEm, .ephemeral-2nDdnn, .bannerNitroUpsell-2iP18z, .popoutInfo-16MuYF,
@@ -2693,14 +2695,16 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 #overview-tab>div>div.children-1xdcWE>div:nth-child(5)>div>div.children-1xdcWE>div:nth-child(1)>div>div.flexChild-3PzYmX>img, .tutorialMessages-3zmloc,
 .emptyStateCTA-206J-N, .emptyStateNote-3W5lug, .block-3Xiiq7 .pro-3GwLMX, .block-3Xiiq7 .tip-Jl__cG, .tip-Jl__cG, .protip-1jXzAl, .activity-E0U09Y, .section-3FmfOT>h3,
 #hypesquad-online-tab>div.features-6z-RVS>div.outer-VAWfYQ.video-293uMj.videoWrapper-1_H3B3, #hypesquad-online-tab>div.features-6z-RVS>div.outer-VAWfYQ.video-293uMj.videoWrapper-1_H3B3>div>iframe,
-#add_friend-tab>[class="grid-1-I1AZ"], #add_friend-tab>[class="header-2N7BYf"], [id="user-context-call"], [id="channel-attach-THREAD"], [id="message-copy-image"],
+#add_friend-tab>[class="grid-1-I1AZ"], #add_friend-tab>[class="header-2N7BYf"], [aria-label="Trade & Chill (server)"] .name-3Uvkvr, [aria-label="Trade & Chill (server)"] #channels>ul>div:nth-child(2),
+[id="voice-&-video-tab"]>div>div.children-1xdcWE>div:nth-child(9), [id="voice-&-video-tab"]>div>div.children-1xdcWE>div:nth-child(16)>div.children-1xdcWE,
+[id="user-context-call"], [id="channel-attach-THREAD"], [id="message-copy-image"], [id="textarea-context-suggestions"], [aria-label="Create Channel"],
 [aria-label="Channel header"] [alt=":blueAlarm:"], [aria-label="Channel header"] [alt=":redAlarm:"], [aria-label="Channel header"] [alt=":warning:"],
 [aria-label="Channel header"] [alt="⚠️"], [aria-label="Channel header"] [alt="📌"], [aria-label="Send a gift"], [aria-label="Open GIF picker"],
-[aria-label="Open sticker picker"], [aria-label="Voice channels (category)"], [aria-label="Threads"], [aria-label="Create Invite"], [aria-label="Create Channel"],
-[aria-label="Edit Channel"], [aria-label="Built-In"], [aria-label="Built-in"], [id="message-mark-unread"], [id="message-apps"], [id="message-tts"],
-[id="message-save-image"], [id="message-copy-native-link"], [id="textarea-context-languages"], [id="textarea-context-submit-button"], [id="textarea-context-suggestions"],
+[aria-label="Open sticker picker"], [aria-label="Voice channels (category)"], [aria-label="Threads"], [aria-label="Create Invite"],
+[aria-label="Edit Channel"], [aria-label="Built-In"], [id="message-mark-unread"], [id="message-apps"], [id="message-tts"], [id="message-thread"],
+[id="message-save-image"], [id="message-copy-native-link"], [id="textarea-context-languages"], [id="textarea-context-submit-button"],
 [id="channel-attach-SLASH_COMMAND"], [id="channel-attach-SLASH_COMMAND"], [id="guild-context-invite-people"], [id="channel-context-collapse-all-categories"],
-[id="channel-context-invite-people"], [id="channel-context-mark-channel-read"], [id="channel-attach-upload-text-as-file"], [aria-label="Help"], [id="message-thread"],
+[id="channel-context-invite-people"], [id="channel-context-mark-channel-read"], [id="channel-attach-upload-text-as-file"], [aria-label="Help"],
 [id="guild-header-popout-report-raid"], [id="guild-header-popout-create-event"], [id="guild-header-popout-premium-subscribe"], [id="guild-header-popout-create-category"],
 [id="guild-header-popout-create-channel"], [aria-label="Level 2"], [aria-label="Level 3"], [aria-label="OldSchool.gg (server)"] [class="name-3Uvkvr"],
 [class="icon-18rqoe visible-2yTnyW"], [aria-label="New Group DM"], [aria-label="Start Voice Call"], [aria-label="Start Video Call"], [class="arrowIcon-3Q91hj"],
@@ -2732,8 +2736,7 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 [class="select-1Ia3hD selector-2eK4L1 lookFilled-1GseHa"], [class="select-1Ia3hD marginBottom20-315RVT lookFilled-1GseHa"],
 [class="eyebrow-Ejf06y defaultColor-HXu-5n spacingTop24-2Ctccb"], [class="eyebrow-Ejf06y defaultColor-HXu-5n spacingTop24-Uyez01"],
 [class="item-1OdjEX colorDefault-CDqZdO hideInteraction-2jPGL_"], [class="monaco-sash vertical"], [class="memberSinceContainer-3biwiY"],
-[id="voice-&-video-tab"]>div>div.children-1xdcWE>div:nth-child(9), [id="voice-&-video-tab"]>div>div.children-1xdcWE>div:nth-child(16)>div.children-1xdcWE,
-[class="container-2giAcK"], [aria-label="Trade & Chill (server)"] .name-3Uvkvr, [aria-label="Trade & Chill (server)"] #channels>ul>div:nth-child(2) {
+[class="container-1zDvAE spacingTop-12U95P"], [class="labelRow-2jl9gK"], [class="container-2giAcK"] {
 	display: none !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
@@ -3133,11 +3136,6 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 .option-ayUoaq:hover:after, .option-ayUoaq:after, .form-3gdLxP:before, .option-ayUoaq[aria-selected=true]:after {
 	background:              transparent !important;
 }
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Background color for the enter button ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
-.dim-2Uxgxb  {
-	display:                        none !important;
-}
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Expand SVG Color In Message Text Attachments ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 [class="container-2sjPya"]>[class="messageAttachment-CZp8Iv"]>[class="embedWrapper-1MtIDg attachmentContentItem-UKeiCx container-rr3Ruk"]>[class="text-sm-normal-3Zj3Iv footer-GXWBBp"]>[class="toggleExpandSection-1710zV"]>[class="transition-30IQBn directionDown-2w0MZz"] {
@@ -3271,10 +3269,10 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 
 .colorDefault-CDqZdO.focused-3qFvc8 .checkbox-hADx5o, .colorDefault-CDqZdO.focused-3qFvc8 .radioSelection-1UHp0b,
 .colorDefault-CDqZdO.focused-3qFvc8 .subtext-2G1kbE {
-	color: rgba( 90, 100, 240, 1) !important;
+	color: var(--brand-experiment-500) !important;
 }
 .colorDefault-CDqZdO.focused-3qFvc8 .check-3HZJs4 {
-	color: rgba(255, 255, 255, 1) !important;
+	color: var(--white)                !important;
 }
 /* ◦◦◦◦◦ Keeps The Color Of The Delete Item In The Content Menu The Same When Hovered ◦◦◦◦◦◦ */
 
@@ -3543,7 +3541,7 @@ svg.closeIcon-3aZ-RA:hover {
 	margin-bottom: -14px  !important;
 }
 .userTag-PXLYzP {
-    font-size:  14px !important;
-    font-weight: 500 !important;
+	font-size:  14px !important;
+	font-weight: 500 !important;
 	margin-top:  4px !important;
 }
