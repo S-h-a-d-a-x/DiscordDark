@@ -48,7 +48,7 @@
 
 	--brightness: 1;
 	--contrast:   1;
-	--backdrop: .70;
+	--backdrop: .65;
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Fonts ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -885,6 +885,11 @@ em>span {
 	color: var(--text-normal)        !important;
 	text-decoration:            none !important;
 }
+.embedFieldValue-3EHtvR {
+	font-size:                  14px !important;
+	font-weight:                 500 !important;
+	color: var(--text-normal)        !important;
+}
 .embedFieldValue-3EHtvR>strong {
 	font-size:                  14px !important;
 	font-weight:                 600 !important;
@@ -921,11 +926,6 @@ em>span {
 	font-size:                  16px !important;
 	font-weight:                 600 !important;
 	color: var(--header-primary)     !important;
-}
-.embedFieldValue-3EHtvR {
-	font-size:                  14px !important;
-	font-weight:                 500 !important;
-	color: var(--text-normal)        !important;
 }
 .embedDescription-1DrJxZ {
 	font-size:                  14px !important;
@@ -1007,8 +1007,13 @@ em>span {
 }
 .embedTitle-2n1pEb.embedMargin-2PsaQ4 {
 	margin-left:             0px !important; /* Original - 10px */
-	margin-top:              4px !important; /* Original - 10px */
-	margin-bottom:           4px !important; /* Original - 10px */
+	margin-top:              0px !important; /* Original - 10px */
+	margin-bottom:           0px !important; /* Original - 10px */
+}
+.embedTitle-2n1pEb.embedMargin-2PsaQ4>strong {
+	font-size:              16px !important;
+	font-weight:             600 !important;
+	color: var(--header-primary) !important;
 }
 .embedFooter-3dj0UE.embedMargin-2PsaQ4 {
 	margin-top:             -4px !important; /* Original - 10px */
@@ -2288,11 +2293,22 @@ li.channel-1Shao0.container-32HW5s {
 	padding-bottom:   80px !important;
 	padding-left:     40px !important;
 }
-/* ◦◦◦◦◦◦◦◦◦◦ Adds A Small Gap Between The Minigames Icon And The Start Of The Text ◦◦◦◦◦◦◦◦◦◦ */
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Aligns The Emojis With The Text ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-[aria-label=":minigameIcon:"]:not(strong [aria-label=":minigameIcon:"]),
-[aria-label=":skiller:"]:not(strong [aria-label=":skiller:"]) {
-	margin-right: 4px !important;
+.message-2CShn3 [data-type="emoji"]:not(.embedTitle-2n1pEb [data-type="emoji"]):not(.embedFieldName-9LYSyR [data-type="emoji"]),
+.mentioned-Tre-dv [data-type="emoji"] {
+	margin-bottom: 2px !important;
+}
+.mentioned-Tre-dv [aria-label=":sapphireMinion:"] {
+	margin-left:  -4px !important;
+}
+[aria-label=":minigameIcon:"]:not(strong [aria-label=":minigameIcon:"]):not(.embedFieldName-9LYSyR [aria-label=":minigameIcon:"]):not(.embedTitle-2n1pEb [aria-label=":minigameIcon:"]) {
+	margin-right:  4px !important;
+}
+.embedTitle-2n1pEb.embedMargin-2PsaQ4>span:nth-child(1)>img,
+.embedTitle-2n1pEb.embedMargin-2PsaQ4>span:nth-child(2)>img {
+	margin-right:  3px !important;
+	margin-bottom: 3px !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 /*                           ╔╗ ╔═╗╔╦╗╔╦╗╔═╗╦═╗  ╔╦╗╦╔═╗╔═╗╔═╗╦═╗╔╦╗                           */
