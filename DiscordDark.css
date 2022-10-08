@@ -573,7 +573,6 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 	color:      var(--info-warning-foreground) !important;
 }
 .root-g14mjS {
-	border:    4px ridge var(--border-primary) !important;
 	border-radius:                         4px !important;
 	box-shadow: 0 0 6px 2px var(--black)       !important;
 }
@@ -1292,7 +1291,8 @@ button#gif-picker-tab {
 	border-bottom-right-radius: 6px !important;
 }
 .menu-1QACrS .scroller-1bVxF5 { 
-	border-radius:              4px !important;
+	border-radius:                   4px !important;
+	box-shadow: 0 0 6px 2px var(--black) !important;
 }
 .menu-1dOGCq {
 	background:       var(--bgDarkness3)    !important;
@@ -1871,7 +1871,7 @@ button.marginBottom8-emkd0_.button-1cRKG6.button-f2h6uQ.lookFilled-yCfaCM.colorB
 	font-size:       0px !important;
 	color:   transparent !important;
 	transition:    font-size 400ms, padding 200ms !important;
-	box-shadow: 0 0 6px 1px var(--border-primary) !important;
+	box-shadow: 0 0 6px 2px var(--black)          !important;
 	background:             var(--bgDarkness3)    !important;
 	background-clip:                   border-box !important;
 	background-origin:                padding-box !important;
