@@ -53,7 +53,7 @@
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Fonts ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 	--font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-
+	--font:	Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 	--font-primary:               var(--font) !important;
 	--font-display:               var(--font) !important;
 
@@ -89,9 +89,25 @@
 	--background-primary:             rgba(  0,   0,   0,   0);
 	--background-secondary:           rgba( 25,  25,  25,   1);
 	--background-tertiary:            rgba(  0,   0,   0,   1);
+
 	--background-accent:                  transparent !important;
 	--background-modifier-accent:         transparent !important;
 	--background-modifier-hover:   var(--bgDarkness1) !important;
+
+/*
+	--modal-background:
+
+	--background-secondary-alt:
+	--background-floating:            rgba(255, 255,   0,   1);
+
+	--channeltextarea-background:     rgba( 15,  15,  15,   1);
+
+	--background-mobile-primary:
+	--background-mobile-secondary:
+
+	--background-message-automod:
+	--background-message-automod-hover:
+*/
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -461,7 +477,7 @@ div[data-list-item-id="guildsnav___home"]:hover  {
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Darkness 1 Background Image ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-.footer-GXWBBp, .textContainer-36wgKK, .container-x8Y1ix, .queryContainer-ZunrLZ, .scroller-3j5xK2, .peopleList-2VBrVI, .scroller-hE2gWq, .videoGrid-1tZm-F,
+.footer-GXWBBp, .textContainer-36wgKK, .container-x8Y1ix, .scroller-3j5xK2, .peopleList-2VBrVI, .scroller-hE2gWq, .videoGrid-1tZm-F,
 .resultsGroup-1BPR25, .previewCard-DOrO3c, .card-3_CqkU, .scroller-1J_F7B, .css-1ba14n5-option, .circleButton-33AIyY, .perksModal-fSYqOq, .contentRegion-3HkfJJ,
 div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1kSAf6, .contentRegionScroller-2_GT_N.auto-2K3UW5.scrollerBase-_bVAAt,
 .unreadBar-elBRZx, .peopleColumn-1wMU14, .nowPlayingColumn-1eCBCN, .content-3spvdd, .folderIconWrapper-1_bOZe, .expandedFolderBackground-1cujaW, .container-1oAagU,
@@ -478,7 +494,7 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Darkness 2 Background Image ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 #app-mount>div.appDevToolsWrapper-1QxdQf>div>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div.container-1eFtFS>div>div.content-1SgpWY>div.container-2cd8Mz>section,
-.searchFilter-2UfsDk, .searchAnswer-23w-CH, .form-3gdLxP, .searchBar-3TnChZ, .card-8UsK4b,
+.form-3gdLxP, .searchBar-3TnChZ, .card-8UsK4b,
 .option-2eIyOn, [class="container-1NXEtd"], .title-31SJ6t, .bd-description-wrap, .bd-footer, .scroller-WSmht3, .sidebar-1tnWFu, [class="panels-3wFtMD"],
 .radioBar-3w9XY-:hover, .topPill-3DJJNV:not([class="tabBar-1qdMr5 topPill-3DJJNV"]),
 [class="scroller-kQBbkU auto-2K3UW5 scrollerBase-_bVAAt disableScrollAnchor-6TwzvM managedReactiveScroller-1lEEh3"], [class="scroller-kQBbkU auto-2K3UW5 scrollerBase-_bVAAt disableScrollAnchor-6TwzvM managedReactiveScroller-1lEEh3 scrolling-20Of9p"] {
@@ -514,7 +530,7 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 .userPopoutInner-PA9zkU, .overlayBackground-arbZMT, .userPopoutInnerNonPremium-3zrFkp, .banner-2boKnS, .popoutBanner-16rVDY, .profileBanner-2zIsK7, .memberRow-1FhJgR, .activeGame-3ncS55,
 [class="content-2hZxGK thin-31rlnD scrollerBase-_bVAAt"]>[class="problemInfo-1QppuA"]>div, [class="select-1Ia3hD open-1FRZsK lookFilled-1GseHa"], [class="select-1Ia3hD lookFilled-1GseHa"],
 .userPopoutInner-1v4xcM, .userPopout-2j1gM4, .overlayBackground-2Zjm9f, #bd-editor-controls:not(.clickable-vvKY2q .header-3OsQeK:hover, .selected-1GtAC5 .header-3OsQeK),
-.floating-window-titlebar, .floating-window.resizable {
+.floating-window-titlebar, .floating-window.resizable, .userProfileInner-3F03PX {
 	background: var(--bgDarkness3) !important;
 	background-clip:    border-box !important;
 	background-origin: padding-box !important;
@@ -539,8 +555,6 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 	border: 4px ridge var(--border-primary) !important;
 	border-radius:                      4px !important;
 }
-
-
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Background For The Footer In Message Text Attachments ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 [class="container-2sjPya"]>[class="messageAttachment-CZp8Iv"]>[class="embedWrapper-1MtIDg attachmentContentItem-UKeiCx container-rr3Ruk"]>[class="text-sm-normal-3Zj3Iv footer-GXWBBp"] {
@@ -607,7 +621,7 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 }
 .rolePill-2IJ1vo {
 	border: 2px solid var(--border-secondary) !important;
-	border-radius:                        4px !important;
+	border-radius:                        2px !important;
 	background: var(--bgDarkness2)            !important;
 	padding: 8px 2px !important;
 }
@@ -947,11 +961,22 @@ em>span {
 	background: var(--red-button-hover)   !important;
 }
 /* ◦◦◦◦◦◦ Border color on the left of embedded messages And Changes the Minium Width ◦◦◦◦◦◦◦ */
-
+/*
 .embed-hKpSrO:not([class="inlineMediaEmbed-1m3ApS embed-hKpSrO embedWrapper-1MtIDg justifyAuto-BLgJ2X"]) {
 	min-width:                                      272px !important;
 	border-left: 2px solid var(--info-warning-foreground) !important;
 	border-radius:                                      0 !important;
+}
+*/
+.embed-hKpSrO:not([class="inlineMediaEmbed-1m3ApS embed-hKpSrO embedWrapper-1MtIDg justifyAuto-BLgJ2X"]) {
+	border-left: 2px solid var(--info-warning-foreground) !important;
+	border-radius:                                      0 !important;
+	max-width:                                fit-content !important;
+	min-width:                                      272px !important;
+}
+.gridContainer-1cF_Ic {
+	max-width:                                fit-content !important;
+	min-width:                                      272px !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Background And Font Style For Spoiler Text ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -2265,7 +2290,8 @@ li.channel-1Shao0.container-32HW5s {
 }
 /* ◦◦◦◦◦◦◦◦◦◦ Adds A Small Gap Between The Minigames Icon And The Start Of The Text ◦◦◦◦◦◦◦◦◦◦ */
 
-[aria-label=":minigameIcon:"]:not(strong [aria-label=":minigameIcon:"]) {
+[aria-label=":minigameIcon:"]:not(strong [aria-label=":minigameIcon:"]),
+[aria-label=":skiller:"]:not(strong [aria-label=":skiller:"]) {
 	margin-right: 4px !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
@@ -2531,7 +2557,6 @@ input[type=number] {
 [data-user-id="915985171545747536"]   .avatar-2Vndt_ {
 	content: url("https://cdn.discordapp.com/avatars/303730326692429825/183f4b9794fb34acbc4ffaaa840b099f.webp?size=80")!important;
 }
-
 [aria-label="Messages in 𝗢𝗦𝗕"] .mentioned-Tre-dv .avatar-2e8lTP {
 	content: url("https://cdn.discordapp.com/avatars/303730326692429825/e38cc84cba38060b8da7762f69e50830.webp?size=80")!important;
 }
@@ -2551,7 +2576,6 @@ input[type=number] {
 [data-user-id="915985229896880179"] .avatar-2Vndt_ {
 	content: url("https://cdn.discordapp.com/avatars/729244028989603850/54d80e8799606e3b8752c016bf47dea8.webp?size=80")!important;
 }
-
 [aria-label="Messages in 𝗕𝗦𝗢"] .mentioned-Tre-dv .avatar-2e8lTP {
 	content: url("https://cdn.discordapp.com/avatars/729244028989603850/54d80e8799606e3b8752c016bf47dea8.webp?size=80")!important;
 }
@@ -3018,124 +3042,6 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 	letter-spacing:        0.0125rem !important;
 	color: var(--interactive-active) !important;
 }
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-/*                    ╔═╗╔═╗╔═╗╦═╗╔═╗╦ ╦  ╔╗ ╔═╗═╗ ╦  ╦═╗╔═╗╔═╗╦ ╦╦ ╔╦╗╔═╗                     */
-/*                    ╚═╗║╣ ╠═╣╠╦╝║  ╠═╣  ╠╩╗║ ║╔╩╦╝  ╠╦╝║╣ ╚═╗║ ║║  ║ ╚═╗                     */
-/*                    ╚═╝╚═╝╩ ╩╩╚═╚═╝╩ ╩  ╚═╝╚═╝╩ ╚═  ╩╚═╚═╝╚═╝╚═╝╩═╝╩ ╚═╝                     */
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Search results background colour ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
-#app-mount .container-2McqkF, .searchResultsWrap-5RVOkx, .searchResult-O9NDji.expanded-ovgtuV {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Option buttons on the right background color ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
-#app-mount .option-2KkUJO:after {
-	background:              transparent !important;
-}
-/* ◦◦◦◦◦◦◦ Background colour inside the searchbar when searching in a specific channel ◦◦◦◦◦◦◦ */
-
-#app-mount .option-2KkUJO.selected-rZcOL-, #app-mount .searchAnswer-23w-CH, #app-mount .searchFilter-2UfsDk {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Secondary header box style that contains the channel name ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
-.searchResultGroup-1lU_-i {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-/* ◦◦◦◦◦ The gap between each search result color and the actual result background color ◦◦◦◦◦ */
-
-.searchResult-O9NDji {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Search results header background color ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
-.channelName-3w2Y3c {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-.searchHeader-1r_ZSh {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-#app-mount .searchResult-O9NDji:before {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-.pageButton-1GMGeJ:hover {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-#app-mount .searchResult-O9NDji .searchResultMessage-1fxgXh.hit-1fVM9e {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-#app-mount .jumpButton-1ol35X {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-#app-mount .searchBar-1MOL6S {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-#app-mount .quickMessage-1yeL4E, #app-mount .searchOption-8nCYo-.selected-1r_nkg {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-#app-mount .calendarPicker-sDhzdi .react-datepicker__day--disabled, #app-mount .calendarPicker-sDhzdi .react-datepicker__day--outside-month {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-#app-mount .searchResult-O9NDji:after {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-#app-mount .searchResultsWrap-2DKFzt {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-#app-mount .calendarPicker-sDhzdi .react-datepicker, #app-mount .tab-2j5AEF.selected-2LAck8 {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-#app-mount .calendarPicker-sDhzdi .react-datepicker__header {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-#app-mount .searchResultsContainer-1ma_dc, #app-mount .popout-13LQ_3 {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-#app-mount .searchHeader-1l-wpR .tab-2Ixsn0.selected-16te-P, #app-mount .searchHeader-1l-wpR .tab-2Ixsn0:hover {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-#app-mount .searchHeader-1l-wpR, #app-mount .focused-2FU0YH, #app-mount .focused-1Yu0L3 {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-.option-ayUoaq[aria-disabled=false]:hover, .option-ayUoaq[aria-selected=true] {
-	background:       var(--bgDarkness1) !important;
-	background-position:          center !important;
-}
-.container-2McqkF {
-	background:       var(--bgDarkness3) !important;
-	background-position:          center !important;
-}
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Background color when hovering over the search options ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
-.option-ayUoaq:hover {
-	background:       var(--bgDarkness1) !important;
-	background-position:          center !important;
-}
-.option-ayUoaq:hover:after, .option-ayUoaq:after, .form-3gdLxP:before, .option-ayUoaq[aria-selected=true]:after {
-	background:              transparent !important;
-}
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Expand SVG Color In Message Text Attachments ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 [class="container-2sjPya"]>[class="messageAttachment-CZp8Iv"]>[class="embedWrapper-1MtIDg attachmentContentItem-UKeiCx container-rr3Ruk"]>[class="text-sm-normal-3Zj3Iv footer-GXWBBp"]>[class="toggleExpandSection-1710zV"]>[class="transition-30IQBn directionDown-2w0MZz"] {
@@ -3544,4 +3450,186 @@ svg.closeIcon-3aZ-RA:hover {
 	font-size:  14px !important;
 	font-weight: 500 !important;
 	margin-top:  4px !important;
+}
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+/*                    ╔═╗╔═╗╔═╗╦═╗╔═╗╦ ╦  ╔╗ ╔═╗═╗ ╦  ╦═╗╔═╗╔═╗╦ ╦╦ ╔╦╗╔═╗                     */
+/*                    ╚═╗║╣ ╠═╣╠╦╝║  ╠═╣  ╠╩╗║ ║╔╩╦╝  ╠╦╝║╣ ╚═╗║ ║║  ║ ╚═╗                     */
+/*                    ╚═╝╚═╝╩ ╩╩╚═╚═╝╩ ╩  ╚═╝╚═╝╩ ╚═  ╩╚═╚═╝╚═╝╚═╝╩═╝╩ ╚═╝                     */
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Search results background colour ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+#app-mount .searchResultsWrap-5RVOkx, #app-mount  .searchResult-O9NDji.expanded-ovgtuV {
+	background:       var(--bgDarkness3) !important;
+	background-position:          center !important;
+}
+/* ◦◦◦◦◦◦◦ Background colour inside the searchbar when searching in a specific channel ◦◦◦◦◦◦◦ */
+
+#app-mount .option-2KkUJO.selected-rZcOL- {
+	background:       var(--bgDarkness3) !important;
+	background-position:          center !important;
+}
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Secondary header box style that contains the channel name ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+#app-mount .searchResultGroup-1lU_-i {
+	background:       var(--bgDarkness3) !important;
+	background-position:          center !important;
+}
+/* ◦◦◦◦◦ The gap between each search result color and the actual result background color ◦◦◦◦◦ */
+
+#app-mount .searchResult-O9NDji {
+	background:       var(--bgDarkness2) !important;
+	background-position:          center !important;
+	border-radius:                   4px !important;
+}
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Search results header background color ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+.pageButton-1GMGeJ:hover {
+	background:       var(--bgDarkness3) !important;
+	background-position:          center !important;
+}
+#app-mount .jumpButton-1ol35X {
+	background:       var(--bgDarkness3) !important;
+	background-position:          center !important;
+}
+
+#app-mount .searchBar-1MOL6S {
+	background:       var(--bgDarkness3) !important;
+	background-position:          center !important;
+}
+#app-mount .quickMessage-1yeL4E, #app-mount .searchOption-8nCYo-.selected-1r_nkg {
+	background:       var(--bgDarkness3) !important;
+	background-position:          center !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day--disabled, #app-mount .calendarPicker-sDhzdi .react-datepicker__day--outside-month {
+	color:       var(--header-secondary) !important;
+	background:       var(--bgDarkness3) !important;
+	background-position:          center !important;
+}
+#app-mount .searchResultsWrap-2DKFzt {
+	background:       var(--bgDarkness3) !important;
+	background-position:          center !important;
+}
+#app-mount .tab-2j5AEF.selected-2LAck8 {
+	background:       var(--bgDarkness3) !important;
+	background-position:          center !important;
+}
+
+#app-mount .searchResultsContainer-1ma_dc, #app-mount .popout-13LQ_3 {
+	background:       var(--bgDarkness3) !important;
+	background-position:          center !important;
+}
+#app-mount .searchHeader-1l-wpR .tab-2Ixsn0.selected-16te-P, #app-mount .searchHeader-1l-wpR .tab-2Ixsn0:hover {
+	background:       var(--bgDarkness3) !important;
+	background-position:          center !important;
+}
+#app-mount .searchHeader-1l-wpR, #app-mount .focused-1Yu0L3 {
+	background:       var(--bgDarkness3) !important;
+	background-position:          center !important;
+}
+#app-mount .container-2McqkF {
+	background:       var(--bgDarkness3) !important;
+	background-position:          center !important;
+}
+
+#app-mount .searchAnswer-23w-CH, #app-mount .searchFilter-2UfsDk {
+	color: var(--header-primary)   !important;
+	background: var(--bgDarkness3) !important;
+	background-position:    center !important;
+}
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Background color when hovering over the search options ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+.option-ayUoaq:hover {
+	background: var(--bgDarkness1) !important;
+	background-position:    center !important;
+}
+.option-ayUoaq:hover:after, .option-ayUoaq:after, .form-3gdLxP:before, .option-ayUoaq[aria-selected=true]:after {
+	background:        transparent !important;
+}
+.option-ayUoaq[aria-disabled=false]:hover, .option-ayUoaq[aria-selected=true] {
+	background: var(--bgDarkness1) !important;
+	background-position:    center !important;
+}
+#app-mount .queryContainer-ZunrLZ {
+	color: var(--header-primary)   !important;
+	background: var(--bgDarkness1) !important;
+	background-position:    center !important;
+	border:                   none !important;
+}
+#app-mount .queryContainer-ZunrLZ strong {
+	color: var(--header-secondary) !important;
+}
+#app-mount .focused-2FU0YH {
+	background: var(--bgDarkness3) !important;
+	background-position:    center !important;
+}
+
+#app-mount .calendarPicker-sDhzdi .react-datepicker {
+	background: var(--bgDarkness3) !important;
+	background-position:    center !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__header {
+	background: var(--bgDarkness3) !important;
+	background-position:    center !important;
+	border:                   none !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation {
+	background: transparent !important;
+	border:            none !important;
+	top:               30px !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation--previous {
+	left:              30px !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation--next {
+	right:             30px !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__current-month {
+	color: var(--header-primary) !important;
+	border:                 none !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--next,
+#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--previous {
+	background: var(--bgDarkness3) !important;
+	background-position:    center !important;
+	border:                   none !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--next:hover,
+#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--previous:hover {
+	background: var(--bgDarkness3) !important;
+	background-position:    center !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--next:active,
+#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--previous:active {
+	background: var(--bgDarkness3) !important;
+	background-position:    center !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__week:last-of-type .react-datepicker__day {
+	border-bottom-color: var(--border-primary) !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__week .react-datepicker__day:last-of-type {
+	border-right-color:  var(--border-primary) !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day-name {
+	color: var(--header-secondary) !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day {
+	color: var(--header-primary)             !important;
+	border-top-color:  var(--border-primary) !important;
+	border-left-color: var(--border-primary) !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover,
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day:hover {
+	color: var(--header-primary) !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day {
+	background: var(--bgDarkness3) !important;
+	background-position:    center !important;
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled,
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
+	color: var(--header-secondary) !important;
+	background: var(--bgDarkness3) !important;
+	background-position:    center !important;
+	cursor:                no-drop !important;
 }
