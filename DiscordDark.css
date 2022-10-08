@@ -48,12 +48,12 @@
 
 	--brightness: 1;
 	--contrast:   1;
-	--backdrop: .65;
+	--backdrop: .70;
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Fonts ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 	--font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-	--font:	Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+
 	--font-primary:               var(--font) !important;
 	--font-display:               var(--font) !important;
 
@@ -2593,13 +2593,14 @@ input[type=number] {
 	border: 4px ridge var(--border-primary)     !important;
 	border-radius:                          6px !important;
 	box-shadow: 0 0 8px 2px var(--border-black) !important;
+	padding-bottom:                         2px !important;
 }
 #floating-editor-window, .floating-window, .floating-addon-window, .editor, .bd-fallback-editor,
 .monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input, .monaco-aria-container,
 .floating-window-content, .floating-window.resizable, .monaco-editor .margin, .monaco-editor .minimap,
 .monaco-editor .minimap-slider, .monaco-editor .minimap-slider .minimap-slider-horizontal {
+	color:      var(--text-normal) !important;
 	background: var(--bgDarkness1) !important;
-	color: var(--text-normal);
 }
 .monaco-editor .minimap-shadow-visible {
 	box-shadow:               none !important;
@@ -2607,18 +2608,13 @@ input[type=number] {
 .monaco-editor .minimap.slider-mouseover .minimap-slider {
 	opacity:                   0.5 !important;
 }
-[class="invisible scrollbar vertical"],
-[class="invisible scrollbar vertical fade"], [class="visible scrollbar vertical"],
-[class="invisible scrollbar horizontal fade"], [class="visible scrollbar horizontal"] {
+[class="visible scrollbar vertical"], [class="invisible scrollbar vertical"], [class="invisible scrollbar vertical fade"],
+[class="visible scrollbar horizontal"], [class="invisible scrollbar horizontal"], [class="invisible scrollbar horizontal fade"] {
 	background: var(--bgDarkness1) !important;
 	opacity:                     1 !important;
 	border:                   none !important;
 }
-.vs-dark .monaco-scrollable-element>.scrollbar>.slider {
-	background: var(--bgDarkness3)                 !important;
-	background-position:                    center !important;
-	border-radius:                             6px !important;
-}
+.vs-dark .monaco-scrollable-element>.scrollbar>.slider,
 .vs-dark .monaco-scrollable-element>.scrollbar>.slider.active {
 	background: var(--bgDarkness3)                 !important;
 	background-position:                    center !important;
@@ -2666,6 +2662,16 @@ input[type=number] {
 	background:      transparent !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+/*                       ╔═╗╦ ╦╔═╗╔╦╗╔═╗╔╦╗  ╔═╗╔═╗╔═╗  ╔═╗╔╦╗╦╔╦╗╔═╗╦═╗                       */
+/*                       ║  ║ ║╚═╗ ║ ║ ║║║║  ║  ╚═╗╚═╗  ║╣  ║║║ ║ ║ ║╠╦╝                       */
+/*                       ╚═╝╚═╝╚═╝ ╩ ╚═╝╩ ╩  ╚═╝╚═╝╚═╝  ╚═╝═╩╝╩ ╩ ╚═╝╩╚═                       */
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
+#bd-floating-editor>div>div.overflow-guard>div.minimap.slider-mouseover,
+#bd-floating-editor>div>div.overflow-guard>div.minimap.slider-mouseover>canvas:nth-child(2) {
+	display: none !important;
+}
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 /*   Increases the gap of the most recent messages in the chat for my my quick react script    */
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -2692,7 +2698,6 @@ input[type=number] {
 	width:    fit-content !important;
 	justify-self: inherit !important;
 }
-
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 /*                      ╦═╗╔═╗╔╦╗╔═╗╦  ╦╔═╗╔╦╗  ╔═╗╦  ╔═╗╔╦╗╔═╗╔╗╔╔╦╗╔═╗                       */
 /*                      ╠╦╝║╣ ║║║║ ║╚╗╔╝║╣  ║║  ║╣ ║  ║╣ ║║║║╣ ║║║ ║ ╚═╗                       */
@@ -2889,7 +2894,7 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 .hasConnectedBar-1vN2JH {
 	padding-top: 2px !important;
 }
-/* ◦◦◦◦◦◦◦◦◦◦ Position And Style Of The Popup Atatchment Bat When Using A Commaand ◦◦◦◦◦◦◦◦◦◦◦ */
+/* ◦◦◦◦◦◦◦◦◦◦ Position And Style Of The Popup Atatchment Bar When Using A Commaand ◦◦◦◦◦◦◦◦◦◦◦ */
 
 .attachedBars-2BCP3l {
 	background:       var(--bgDarkness3)    !important;
@@ -2921,13 +2926,6 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 	padding-right:    6px !important;
 	transform: scale(95%) !important;
 }
-/* ◦◦◦◦◦◦◦◦ The Initial Aplication Command Position When There's No Command Selected ◦◦◦◦◦◦◦◦◦ */
-
-.applicationCommand-2wdTS6>[data-slate-node=text]>* {
-	padding-top:                  0px !important;
-	margin-top:                   6px !important;
-	background:           transparent !important;
-}
 /* ◦◦◦◦◦◦◦◦◦◦◦ The Color And Font Style And Position Of The Remaining Options Text ◦◦◦◦◦◦◦◦◦◦◦ */
 
 .remainingOptions-2kCt8U {
@@ -2939,16 +2937,16 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦ Background And Border Style Of The Input Box When Using A Command ◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-.optionPillKey-2JyeoP, .optionPillValue-2uxsMp {
+.optionPillKey-2JyeoP {
 	background: var(--bgDarkness1)    !important;
 	background-position:       center !important;
 }
-.optionPillValue-2uxsMp {
-	padding-right:               10px !important;
+.optionPill-2kmuZR:nth-child(2) {
+	margin-left: 2px !important;
 }
 .optionPill-2kmuZR {
-	background: var(--bgDarkness1)             !important;
-	background-position:                center !important;
+	background: var(--bgDarkness1)    !important;
+	background-position:       center !important;
 	border: 4px ridge var(--border-primary)    !important;
 	border-radius:                         4px !important;
 	margin-top:                            0px !important;
@@ -2956,17 +2954,24 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 	margin-left:                          -2px !important;
 	margin-right:                         -4px !important;
 	padding-bottom:                        2px !important;
-	filter: drop-shadow( 0 0 2px var(--black)) !important;
-}
-.optionPill-2kmuZR:nth-child(2) {
-	margin-left: 2px !important;
 }
 .selectedPill-3cOyS6 {
 	background: var(--bgDarkness1)             !important;
 	background-position:                center !important;
 	border: 4px ridge var(--border-secondary)  !important;
 	border-radius:                         4px !important;
-	filter: drop-shadow( 0 0 2px var(--black)) !important;
+}
+.error-3KCS1N {
+	font-size:                      14px !important;
+	font-weight:                     600 !important;
+	color: var(--info-danger-foreground) !important;
+}
+
+.applicationCommand-2wdTS6>[data-slate-node="text"]>*, .optionPillValue-2uxsMp>[data-slate-node="text"]>* {
+	padding-top:                  0px !important;
+	margin-top:                   6px !important;
+	min-width:                    6px !important;
+	background:           transparent !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -3041,6 +3046,7 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 	line-height:                20px !important;
 	letter-spacing:        0.0125rem !important;
 	color: var(--interactive-active) !important;
+	text-transform:       capitalize !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Expand SVG Color In Message Text Attachments ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
