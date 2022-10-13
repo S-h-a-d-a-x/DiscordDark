@@ -1,40 +1,40 @@
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Radial status ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Changes the look of the emojis ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css);
 
 /* Supported Providers: Apple, Facebook, Google, JoyPixels, Microsoft, OpenMoji, Samsung, Toss, WhatsApp */
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Colored SVGs ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url("https://nyri4.github.io/Discolored/main.css");
+@import url(https://nyri4.github.io/Discolored/main.css);
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Fluent Icons Base Theme ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url("https://stickfab.github.io/pc-fluenticons/src/fluenticons-base.css");
+@import url(https://stickfab.github.io/pc-fluenticons/src/fluenticons-base.css);
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Context Menu Icons ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url("https://stickfab.github.io/pc-fluenticons/src/fluenticons-context.css");
+@import url(https://stickfab.github.io/pc-fluenticons/src/fluenticons-context.css);
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Settings Menu Icons ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Server columns ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Better Inbox ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url("https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css");
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Invites Redesign ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-@import url("https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css");
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 /*                        ╔╦╗╦ ╦╔═╗╔╦╗╔═╗  ╦  ╦╔═╗╦═╗╦╔═╗╔╗ ╦  ╔═╗╔═╗                        */
@@ -48,7 +48,7 @@
 
 	--brightness: 1;
 	--contrast:   1;
-	--backdrop: .65;
+	--backdrop: .50;
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Fonts ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -184,7 +184,7 @@
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Home Button Image ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-	--home-image:    url('https://i.imgur.com/C74QKOR.png');
+	--home-image:    url(https://i.imgur.com/C74QKOR.png);
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Background Images ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -304,7 +304,7 @@ div, dl, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legen
 object, ol, p, pre, q, s, samp, small, span, strike, strong, table, tbody, td, tfoot, th, cite,
 thead, tr, tt, ul, var, code, dd, del, dfn, dl, dt, em, fieldset, iframer, .label-31sIdr {
 	scroll-behavior:                     smooth !important;
-	text-rendering:               optimizeSpeed !important;
+	text-rendering:          optimizeLegibility !important;
 	text-shadow: 0px 0px 1px var(--text-shadow), 0px  1px 1px var(--text-shadow), -1px  0px 1px var(--text-shadow),
 				 1px 0px 1px var(--text-shadow), 0px -1px 1px var(--text-shadow), -1px  1px 1px var(--text-shadow),
 				 1px 1px 1px var(--text-shadow), 1px -1px 1px var(--text-shadow), -1px -1px 1px var(--text-shadow) !important;
@@ -494,9 +494,8 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Darkness 2 Background Image ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 #app-mount>div.appDevToolsWrapper-1QxdQf>div>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div.container-1eFtFS>div>div.content-1SgpWY>div.container-2cd8Mz>section,
-.form-3gdLxP, .searchBar-3TnChZ, .card-8UsK4b,
-.option-2eIyOn, [class="container-1NXEtd"], .title-31SJ6t, .bd-description-wrap, .bd-footer, .scroller-WSmht3, .sidebar-1tnWFu, [class="panels-3wFtMD"],
-.radioBar-3w9XY-:hover, .topPill-3DJJNV:not([class="tabBar-1qdMr5 topPill-3DJJNV"]),
+.form-3gdLxP, .searchBar-3TnChZ, .card-8UsK4b, .container-ZMc96U.themed-Hp1KC_, .option-2eIyOn, .sidebar-1tnWFu, .title-31SJ6t, .scroller-WSmht3, .bd-footer, .bd-description-wrap,
+.radioBar-3w9XY-:hover, .topPill-3DJJNV:not([class="tabBar-1qdMr5 topPill-3DJJNV"]), [class="container-1NXEtd"], [class="panels-3wFtMD"],
 [class="scroller-kQBbkU auto-2K3UW5 scrollerBase-_bVAAt disableScrollAnchor-6TwzvM managedReactiveScroller-1lEEh3"], [class="scroller-kQBbkU auto-2K3UW5 scrollerBase-_bVAAt disableScrollAnchor-6TwzvM managedReactiveScroller-1lEEh3 scrolling-20Of9p"] {
 	background: var(--bgDarkness2) !important;
 	background-clip:    border-box !important;
@@ -592,11 +591,11 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 	border-radius:                               4px !important;
 }
 .noItemsCard-5EOcCl {
-	background: transparent !important;
+	background:        transparent !important;
 }
 [class="formNotice-2nS8ey cardPrimary-3qRT__ card-16VQ8C"] {
-	background-color: transparent !important;
-	border: none                  !important;
+	background-color:  transparent !important;
+	border:                   none !important;
 }
 .option-1QI4c9 {
 	background: var(--bgDarkness3) !important;
@@ -622,7 +621,10 @@ div.messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1k
 	border: 2px solid var(--border-secondary) !important;
 	border-radius:                        2px !important;
 	background: var(--bgDarkness2)            !important;
-	padding: 8px 2px !important;
+	padding:                          8px 2px !important;
+}
+.row-3nMNOy, .game-2f2vPC {
+	box-shadow: none !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ User Profile Popout Colors ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -961,13 +963,7 @@ em>span {
 	background: var(--red-button-hover)   !important;
 }
 /* ◦◦◦◦◦◦ Border color on the left of embedded messages And Changes the Minium Width ◦◦◦◦◦◦◦ */
-/*
-.embed-hKpSrO:not([class="inlineMediaEmbed-1m3ApS embed-hKpSrO embedWrapper-1MtIDg justifyAuto-BLgJ2X"]) {
-	min-width:                                      272px !important;
-	border-left: 2px solid var(--info-warning-foreground) !important;
-	border-radius:                                      0 !important;
-}
-*/
+
 .embed-hKpSrO:not([class="inlineMediaEmbed-1m3ApS embed-hKpSrO embedWrapper-1MtIDg justifyAuto-BLgJ2X"]) {
 	border-left: 2px solid var(--info-warning-foreground) !important;
 	border-radius:                                      0 !important;
@@ -1236,7 +1232,7 @@ em>span {
 	border: 2px solid var(--border-primary)   !important;
 	border-radius:                        4px !important;
 }
-.bd-search-wrapper:hover {
+.bd-search-wrapper:hover, .bd-search-wrapper:focus-within {
 	border: 2px solid var(--border-secondary) !important;
 }
 button#gif-picker-tab.navButton-1XuvI-.navItem-3McpmW.navButtonActive-1EqC5l, button#emoji-picker-tab.navButton-1XuvI-.navItem-3McpmW.navButtonActive-1EqC5l {
@@ -1265,6 +1261,10 @@ button#gif-picker-tab {
 }
 [class="select-1Ia3hD searchable-22AIU7 lookFilled-1GseHa"], [class="select-1Ia3hD searchable-22AIU7 open-1FRZsK lookFilled-1GseHa"], [class="select-1Ia3hD lookFilled-1GseHa"], [class="select-1Ia3hD open-1FRZsK lookFilled-1GseHa"] {
 	border: 2px solid var(--border-primary) !important;
+	border-radius:                      4px !important;
+}
+[class="select-1Ia3hD searchable-22AIU7 lookFilled-1GseHa"]:hover, [class="select-1Ia3hD searchable-22AIU7 open-1FRZsK lookFilled-1GseHa"], [class="select-1Ia3hD lookFilled-1GseHa"]:hover, [class="select-1Ia3hD open-1FRZsK lookFilled-1GseHa"]:hover {
+	border: 2px solid var(--border-secondary) !important;
 }
 .item-3XjbnG.selected-g-kMVV:not(.tabBarItem-1b8RUP):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-), .css-gvi9bl-control, .css-1ba14n5-option, .gameNameInput-3TuPuA,
 .option-2KkUJO.selected-rZcOL-, .selected-1-Z6gm, .input-2m5SfJ:not([aria-label="Search Tenor"]), .searchBar-zdmu7v, .searchBarComponent-3N7dCG, .unreadBar-elBRZx, .bd-select-option.selected,
@@ -1276,6 +1276,13 @@ button#gif-picker-tab {
 .searchBarComponent-3N7dCG:hover, .unreadBar-elBRZx:hover, .bd-select-option.selected:hover, .gameNameInput-3TuPuA:hover,
 .select-1Ia3hD:not([class="select-1Ia3hD searchable-22AIU7 lookFilled-1GseHa"]):not([class="select-1Ia3hD searchable-22AIU7 open-1FRZsK lookFilled-1GseHa"]):not([class="select-1Ia3hD lookFilled-1GseHa"]):not([class="select-1Ia3hD open-1FRZsK lookFilled-1GseHa"]):hover {
 	border:                   none !important;
+}
+.repo-k8F4Sd .inner-2pOSmK {
+	border: 2px solid var(--border-primary)   !important;
+	border-radius:                        4px !important;
+}
+.repo-k8F4Sd .inner-2pOSmK:hover, .repo-k8F4Sd .inner-2pOSmK:focus-within {
+	border: 2px solid var(--border-secondary) !important;
 }
 .jumpToPresentBar-1cEnH0 {
 	opacity:      100 !important;
@@ -1302,6 +1309,13 @@ button#gif-picker-tab {
 	min-width:                        100px !important;
 	width:                            180px !important;
 	left:                              -6px !important;
+}
+.radioBar-3w9XY- {
+	border: 2px solid var(--border-primary)   !important;
+	border-radius:                        4px !important;
+}
+.radioBar-3w9XY-:hover {
+	border: 2px solid var(--border-secondary) !important;
 }
 .optionLabel-1o-h-l {
 	height: 20px !important;
@@ -1718,12 +1732,15 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, button.bd-but
 	color: var(--header-secondary)        !important;
 }
 #appearance-tab>div>div.children-1xdcWE>div:nth-child(1)>div {
-	border: 2px solid var(--border-black) !important;
-	border-radius:                    6px !important;
+	border: 2px solid var(--border-primary) !important;
+	border-radius:                      4px !important;
 }
 #game-activity-tab>div>div.children-1xdcWE>div.nowPlayingAdd-3I4RbE.marginReset-28ZZyF.marginTop8-24uXGp.marginBottom20-315RVT>button {
-	border: 2px solid var(--border-black) !important;
-	margin-left:                      4px !important;
+	border: 2px solid var(--border-primary) !important;
+	margin-left:                        4px !important;
+}
+[class="h5-2RwDNl title-3hptVQ marginBottom4-1fdMNe"], [class="gameName-zbZetm"], [class="hoverRoll-2XwpoF"], .nowPlayingAdd-3I4RbE {
+	margin-left:                        2px !important;
 }
 #guild_premium-tab>div.wrapper-3Zq_cJ>div.action-MXk_HA>button {
 	background:       var(--white-button) !important;
@@ -1780,6 +1797,14 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, button.bd-but
 	background:        var(--bgDarkness3) !important;
 	background-position:           center !important;
 	border-radius:                    6px !important;
+}
+[class="formNotice-2nS8ey marginBottom20-315RVT cardPrimary-3qRT__ card-16VQ8C"] {
+	border: 2px solid var(--border-primary) !important;
+	border-radius:                      4px !important;
+}
+.preview-3k9WhO, .activeGame-1OdxzI {
+	border: 2px solid var(--border-primary) !important;
+	border-radius:                      4px !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Color Of The Circular Check Button In Option Boxes ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -1961,7 +1986,7 @@ button.marginBottom8-emkd0_.button-1cRKG6.button-f2h6uQ.lookFilled-yCfaCM.colorB
 .inputDefault-3FGxgL:not([class="inputDefault-3FGxgL input-2g-os5 input-1bmui3 inputText-30IjXy"]), .input-2z42oC {
 	background:       var(--bgDarkness3)       !important;
 	background-position:                center !important;
-	border: 4px ridge var(--border-primary)    !important;
+	border: 2px solid var(--border-primary)    !important;
 	border-radius:                         4px !important;
 	outline:                              none !important;
 	filter: drop-shadow( 0 0 2px var(--black)) !important;
@@ -2317,43 +2342,63 @@ li.channel-1Shao0.container-32HW5s {
 /*                           ╚═╝╚═╝ ╩  ╩ ╚═╝╩╚═  ═╩╝╩╚═╝╚═╝╚═╝╩╚══╩╝                           */
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
+#app-mount .bd-setting-item {
+	background: var(--bgDarkness1)  !important;
+	background-position:     center !important;
+}
+#app-mount .bd-empty-updates svg {
+	fill: var(--green-button)       !important;
+}
+#app-mount .bd-filled-checkmark {
+	background: var(--green-button) !important;
+	transform:           scale(90%) !important;
+}
+/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+
 #bd-editor-controls button:hover {
 	animation: pop 750ms ease-in-out infinite !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Background And Border For The Sort By And Order Boxes ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 .bd-select.bd-select-transparent {
-	font-size:                       14px !important;
-	color:            var(--text-primary) !important;
-	background:       var(--bgDarkness3)  !important;
-	background-position:           center !important;
-	border: 2px solid var(--border-black) !important;
-	border-radius:                    6px !important;
-	padding:                      2px 2px !important;
+	font-size:                           14px !important;
+	color:            var(--text-primary)     !important;
+	background:       var(--bgDarkness3)      !important;
+	background-position:               center !important;
+	border: 2px solid var(--border-primary)   !important;
+	border-radius:                        4px !important;
+	padding:                          2px 0px !important;
+}
+.bd-select.bd-select-transparent:hover {
+	border: 2px solid var(--border-secondary) !important;
 }
 /* ◦◦◦◦◦ Background And Border For The Sort By And Order Boxes In The Plugin/Theme Repos ◦◦◦◦◦ */
 
 .repoHeader-2KfNvH>div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.tabBarContainer-sCZC4w.bottom-b8sdfs>div:nth-child(2)>div>div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.quickSelectClick-2ycwNA,
 .repoHeader-2KfNvH>div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.tabBarContainer-sCZC4w.bottom-b8sdfs>div:nth-child(3)>div>div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.quickSelectClick-2ycwNA {
-	font-size:                       14px !important;
-	color:            var(--text-primary) !important;
-	background:       var(--bgDarkness3)  !important;
-	background-position:           center !important;
-	border: 2px solid var(--border-black) !important;
-	border-radius:                    6px !important;
-	padding:                      2px 4px !important;
+	font-size:                           14px !important;
+	color:            var(--text-primary)     !important;
+	background:       var(--bgDarkness3)      !important;
+	background-position:               center !important;
+	border: 2px solid var(--border-primary)   !important;
+	border-radius:                        4px !important;
+	padding:                          2px 4px !important;
+}
+.repoHeader-2KfNvH>div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.tabBarContainer-sCZC4w.bottom-b8sdfs>div:nth-child(2)>div>div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.quickSelectClick-2ycwNA:hover,
+.repoHeader-2KfNvH>div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.tabBarContainer-sCZC4w.bottom-b8sdfs>div:nth-child(3)>div>div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.quickSelectClick-2ycwNA:hover {
+	border: 2px solid var(--border-secondary) !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦ Background And Border For The Option Boxes On The BD Settings Page ◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 input[type=number] {
-	border: 2px solid var(--border-black) !important;
-	border-radius:                    6px !important;
-	width:                           40px !important;
-	text-align:                    center !important;
+	border: 2px solid var(--border-primary) !important;
+	border-radius:                      4px !important;
+	width:                             40px !important;
+	text-align:                      center !important;
 }
 .bd-setting-item .bd-select {
-	border: 2px solid var(--border-black) !important;
-	border-radius:                    6px !important;
+	border: 2px solid var(--border-primary) !important;
+	border-radius:                      4px !important;
 }
 /* ◦◦◦◦ Moves The Buttons, SearchBar, Themes, And Loaded Plugins So They're Spaced Evenly ◦◦◦◦ */
 
@@ -2416,8 +2461,11 @@ input[type=number] {
 	background-position:          center !important;
 }
 .repoHeader-2KfNvH {
-	background:       var(--bgDarkness1) !important;
+	background:       var(--bgDarkness3) !important;
 	background-position:          center !important;
+}
+.tabBarContainer-sCZC4w.bottom-b8sdfs {
+	border-bottom:                  none !important;
 }
 .repoList-9JnAPs .repoHeader-2KfNvH .tabBar-2hXqzU {
 	height:                         45px !important;
@@ -2435,26 +2483,31 @@ input[type=number] {
 /*                                     Repo Plugins Cards                                      */
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-.repoList-9JnAPs .card-x5zW6z {
+.info-xw-o76 {
+	border: none !important;
+}
+.card-x5zW6z {
 	height:                                       350px !important;
-	background:                  var(--bgDarkness2)     !important;
+	background:                  var(--bgDarkness1)     !important;
 	background-position:                         center !important;
-	border:            solid 2px var(--border-black)    !important;
+	border: 2px solid var(--border-primary)             !important;
+	border-radius:                                  4px !important;
 	filter: drop-shadow( 0 0 4px var(--border-primary)) !important;
 }
-.repoList-9JnAPs .card-x5zW6z:hover {
-	background:                  var(--bgDarkness3)     !important;
+.card-x5zW6z:hover {
+	background:                  var(--bgDarkness2)     !important;
 	background-position:                         center !important;
+	border: 2px solid var(--border-secondary)           !important;
 }
-.repoList-9JnAPs .card-x5zW6z .iconWrapper-eK7GO6 {
+.card-x5zW6z .iconWrapper-eK7GO6 {
 	background:                             transparent !important;
 	filter: drop-shadow( 0 0 2px var(--border-black))   !important;
 	padding:                            4px 4px 2px 4px !important;
 }
-.repoList-9JnAPs .card-x5zW6z .description-zXiu5E {
+.card-x5zW6z .description-zXiu5E {
 	margin:                          4px 0px !important;
 }
-.repoList-9JnAPs .card-x5zW6z .tag-PbPfwP {
+.card-x5zW6z .tag-PbPfwP {
 	font-size:                          12px !important;
 	font-weight:                         400 !important;
 	background:        var(--bgDarkness1)    !important;
@@ -2464,7 +2517,7 @@ input[type=number] {
 	line-height:                         2px !important;
 	padding:                         8px 4px !important;
 }
-.repoList-9JnAPs .card-x5zW6z .author-d2JIcl, .repoList-9JnAPs .card-x5zW6z .stats-Pc5tYW {
+.card-x5zW6z .author-d2JIcl, .card-x5zW6z .stats-Pc5tYW {
 	color:             var(--header-primary) !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Adds Some Color To The Heart And Download SVGs ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
@@ -2473,13 +2526,13 @@ input[type=number] {
 	color: var(--red-button)   !important;
 }
 [name="Heart"]:hover {
-	filter: drop-shadow( 0 0 6px var(--red-button-hover))   !important;
+	filter: drop-shadow( 0 0 4px var(--red-button-hover))   !important;
 }
 [name="Download"] {
 	color: var(--green-button) !important;
 }
 [name="Download"]:hover {
-	filter: drop-shadow( 0 0 6px var(--green-button-hover)) !important;
+	filter: drop-shadow( 0 0 4px var(--green-button-hover)) !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 /*                        BetterDiscord Themes and Plugins Addon Cards                         */
@@ -3655,4 +3708,10 @@ svg.closeIcon-3aZ-RA:hover {
 	background: var(--bgDarkness3) !important;
 	background-position:    center !important;
 	cursor:                no-drop !important;
+}
+
+.panels-3wFtMD {
+	margin: 0 !important;
+	border: none !important;
+	background: transparent !important;
 }
