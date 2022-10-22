@@ -1,39 +1,11 @@
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Radial status ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
 @import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
-
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Changes the look of the emojis ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css);
-
-/* Supported Providers: Apple, Facebook, Google, JoyPixels, Microsoft, OpenMoji, Samsung, Toss, WhatsApp */
-
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Colored SVGs ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
 @import url(https://nyri4.github.io/Discolored/main.css);
-
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Fluent Icons Base Theme ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
 @import url(https://stickfab.github.io/pc-fluenticons/src/fluenticons-base.css);
-
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Context Menu Icons ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
 @import url(https://stickfab.github.io/pc-fluenticons/src/fluenticons-context.css);
-
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Settings Menu Icons ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Server columns ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
-
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Better Inbox ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
-
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Invites Redesign ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
-
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
@@ -44,7 +16,7 @@
 
 :root {
 
-/* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Brightness and Contrast ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
+	--version: "DiscordDark v1.4";
 
 	--brightness: 1;
 	--contrast:   1;
@@ -95,18 +67,18 @@
 	--background-modifier-hover:   var(--bgDarkness1) !important;
 
 /*
-	--modal-background:
+	--modal-background:                 rgba(  0,   0,   0,   0);
 
-	--background-secondary-alt:
-	--background-floating:            rgba(255, 255,   0,   1);
+	--background-secondary-alt:         rgba(  0,   0,   0,   0);
+	--background-floating:              rgba(  0,   0,   0,   0);
 
-	--channeltextarea-background:     rgba( 15,  15,  15,   1);
+	--channeltextarea-background:       rgba(  5,   5,   5,   1);
 
-	--background-mobile-primary:
-	--background-mobile-secondary:
+	--background-mobile-primary:        rgba(  0,   0,   0,   0);
+	--background-mobile-secondary:      rgba(  0,   0,   0,   0);
 
-	--background-message-automod:
-	--background-message-automod-hover:
+	--background-message-automod:       rgba(  0,   0,   0,   0);
+	--background-message-automod-hover: rgba(  0,   0,   0,   0);
 */
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
@@ -180,7 +152,7 @@
 
 	--settingsiconssize:                    18px !important;
 	--settingsiconsgap:                     14px !important;
-	--settings-sidebar-width:              245px !important;
+	--settings-sidebar-width:              246px !important;
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Home Button Image ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -191,9 +163,6 @@
 	--bgDarkness1:   rgba( 15, 15, 15,  1);
 	--bgDarkness2:   rgba( 10, 10, 10,  1);
 	--bgDarkness3:   rgba(  5,  5,  5,  1);
-}
-
-.theme-dark {
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Other Colors ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -304,10 +273,12 @@ div, dl, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legen
 object, ol, p, pre, q, s, samp, small, span, strike, strong, table, tbody, td, tfoot, th, cite,
 thead, tr, tt, ul, var, code, dd, del, dfn, dl, dt, em, fieldset, iframer, .label-31sIdr {
 	scroll-behavior:                     smooth !important;
-	text-rendering:          optimizeLegibility !important;
+	text-rendering:               optimizeSpeed !important;
+/*
 	text-shadow: 0px 0px 1px var(--text-shadow), 0px  1px 1px var(--text-shadow), -1px  0px 1px var(--text-shadow),
 				 1px 0px 1px var(--text-shadow), 0px -1px 1px var(--text-shadow), -1px  1px 1px var(--text-shadow),
 				 1px 1px 1px var(--text-shadow), 1px -1px 1px var(--text-shadow), -1px -1px 1px var(--text-shadow) !important;
+*/
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 /*                                     ╦╔╦╗╔═╗╔═╗╔═╗╔═╗                                      */
@@ -317,12 +288,9 @@ thead, tr, tt, ul, var, code, dd, del, dfn, dl, dt, em, fieldset, iframer, .labe
 
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Discords Home Image ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
-div[data-list-item-id="guildsnav___home"] {
+#app-mount [data-list-item-id="guildsnav___home"] {
 	background: var(--home-image) top center/80% no-repeat !important;
 	background-position:                            center !important;
-}
-div[data-list-item-id="guildsnav___home"]:hover  {
-	animation: home 1000ms ease-in-out infinite !important;
 }
 #app-mount [data-list-item-id="guildsnav___home"]>div {
 	color:            transparent !important;
@@ -331,7 +299,6 @@ div[data-list-item-id="guildsnav___home"]:hover  {
 .imageWrapperBackground-3Vss_C, .pngImage-1vIgLy {
 	background:       transparent !important;
 }
-@keyframes home { 50% { transform: scale(0.95);} 50% { transform: scale(1.05);}}
 /* ◦◦◦◦◦◦◦◦ Background For The Main Window When Loading Or Having Connection Issues ◦◦◦◦◦◦◦◦ */
 
 .platform-win .container-2RRFHK, .typeWindows-2-g3UY {
@@ -345,7 +312,7 @@ div[data-list-item-id="guildsnav___home"]:hover  {
 	background-position:          center !important;
 }
 .input-2yCVqe {
-	border-radius: 6px !important;
+	border-radius:                        4px !important;
 }
 [class="inputMini-Un2tP4 input-2g-os5 emojiInput-B8MGXq"] {
 	border: 2px solid var(--border-primary)   !important;
@@ -733,6 +700,11 @@ svg.icon-2W8DHg>path {
 	word-spacing:                        normal !important;
 	letter-spacing:                      normal !important;
 	caret-color: var(--info-warning-foreground) !important;
+}
+
+#openasar-ver:hover {
+	color: var(--text-normal) !important;
+	text-decoration:     none !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Text Transform Capitalize ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
@@ -1424,8 +1396,8 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ Displays The Theme Name Within The Settings Page ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 
 #app-mount .info-3pQQBb .line-18uChy:last-child:after {
-	content: "DiscordDark v1.4" !important;
-	display:              block !important;
+	content: var(--version) !important;
+	display:          block !important;
 }
 /* ◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦ */
 /*                                   ╔╗ ╦ ╦╔╦╗╔╦╗╔═╗╔╗╔╔═╗                                   */
@@ -2782,6 +2754,8 @@ div.timeWrap-3zb-z5>div.title-11H0i9>div>span.userHook-3R3zjr>div.defaultColor-2
 .autocomplete-3NRXG8.outerWrapper-3UdjNj>div>div.rail-1BiMhk.wrapper-3z7DuG>div>div>div.listItems-6eZzQ1>div:nth-child(1),
 .autocomplete-3NRXG8.outerWrapper-3UdjNj>div>div.rail-1BiMhk.wrapper-3z7DuG>div>div>div.listItems-6eZzQ1>div:nth-child(1)>div>div,
 .autocomplete-3NRXG8.outerWrapper-3UdjNj>div>div.rail-1BiMhk.wrapper-3z7DuG>div>div>div.listItems-6eZzQ1>div:nth-child(3)>hr,
+.userPopoutOverlayBackground-dKOOda.overlayBackground-1KgwVi>div.scroller-1jBQYo.thin-31rlnD.scrollerBase-_bVAAt>div:nth-child(1)>h2,
+.userPopoutOverlayBackground-dKOOda.overlayBackground-1KgwVi>div.scroller-1jBQYo.thin-31rlnD.scrollerBase-_bVAAt>div:nth-child(2)>h2,
 #guild-header-popout>div>div:nth-child(2), #channel-context>div>div:nth-child(2), #textarea-context>div>div:nth-child(3), #message>div>div:nth-child(5),
 #guild-header-popout>div>div:nth-child(8), .container-1eFtFS>div>div.content-1SgpWY>div.chat-2ZfjoI>div.content-1jQy2l>div, .notice-2HEN-u.colorStreamerMode-8uoRWd,
 #app-mount>div.appDevToolsWrapper-1QxdQf>div>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div:nth-child(2)>div>div>div.sidebarRegion-1VBisG>div>nav>div>div:nth-child(18),
